@@ -162,7 +162,13 @@
         margin: 10px 0px;
     }
     header.navbar .links {
+        display: flex;
+        flex-direction: column;
         justify-content: space-between;
+    }
+    header.navbar .links a:hover {
+        background-color: #FFFFFF;
+        color: #FA5A0A;
     }
     header.navbar .links a {
         color: #FFFFFF;
@@ -241,16 +247,6 @@
 
 /* 768px */
 @media (max-width: 767.98px) {
-
-    /* header */
-    header.navbar .links {
-        display: flex;
-        flex-direction: column;
-    }
-    header.navbar .links a:hover {
-        background-color: #FFFFFF;
-        color: #FA5A0A;
-    }
 
     /* article-1 */
     .article-1 {
