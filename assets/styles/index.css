@@ -410,16 +410,17 @@ nav.navbar .showroom {
 .article-4 .sale .card {
     background-color: #FFFFFF;
     gap: 20px;
-    max-height: 560px;
-    min-height: 560px;
-    max-width: 490px;
-    min-width: 490px;
+    max-width: 360px;
     padding: 20px;
 }
 .article-4 .sale .card .card-img {
     display: flex;
     justify-content: center;
+    max-width: 320px !important;
     width: 100%;
+}
+.article-4 .sale .card .card-img img {
+    max-width: 320px !important;
 }
 .article-4 .sale .card .card-detail {
     font-family: "Nunito", serif;
@@ -628,13 +629,6 @@ nav.navbar .showroom {
 .article-7 .news-event {
     gap: 30px;
     margin-top: 80px;
-    width: 100%;
-}
-.article-7 .news-event .slide-center {
-    display: flex;
-    justify-content: center;
-    max-width: 360px !important;
-    min-width: 360px !important;
     width: 100%;
 }
 .article-7 .news-event .card {

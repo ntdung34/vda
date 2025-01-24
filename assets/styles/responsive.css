@@ -111,6 +111,7 @@
     .article-3 .product,
     .article-4 .sale {
         margin-top: 30px;
+        padding: 0;
     }
 
     /* article-5 */
@@ -126,10 +127,9 @@
     }
     .article-8 .advise {
         /* border: 1px solid white; */
-        border-radius: 7px;
         backdrop-filter: blur(12px);
         justify-content: center !important;
-        padding: 70px 20px;
+        padding: 70px 30px;
     }
     .article-8 .advise .advise-detail .form {
         margin-top: 37px;
@@ -241,15 +241,6 @@
         height: 120px;
     }
 
-    /* article-7 */
-    .article-7 .news-event .slide-center,
-    .article-7 .news-event .card {
-        max-height: 340px !important;
-        min-height: 340px !important;
-        max-width: 340px !important;
-        min-width: 340px !important;
-    }
-
     /* article-8 */
     .article-8 .advise .advise-detail .mascot-wrapper .mascot {
         display: none;
@@ -257,6 +248,9 @@
     .article-8 .advise .advise-detail .form {
         align-items: center;
         flex-direction: column;
+    }
+    .article-8 .advise .advise-detail .slogan {
+        justify-content: center;
     }
 
     /* footer */
@@ -278,8 +272,8 @@
         padding-top: 60px;
     }
     .article-1 .slogan {
-        font-size: 50px;
-        line-height: 75px;
+        font-size: 45px;
+        line-height: 70px;
     }
     .article-1 .mascot {
         left: 35%;
@@ -369,26 +363,34 @@
     .article-6 .showroom .showroom-city {
         margin-top: 23px;
     }
+    .article-6 .discover-all .discover-all-button {
+        max-width: 200px;
+    }
 
     /* article-7 */
     .article-7 .slogan {
         font-size: 40px;
     }
-    .article-7 .news-event .slide-center {
-        /* max-height: 340px !important;
-        min-height: 340px !important; */
-        max-width: 516px !important;
-        min-width: 516px !important;
+    .article-7 .discover-all .discover-all-button {
+        max-width: 200px;
     }
 
     /* article-8 */
     .article-8 {
-        padding-top: 37px;
-        padding-bottom: 33px;
+        padding: 0px;
     }
     .article-8 .advise .advise-detail .slogan {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 53px;
+    }
+    .article-8 .advise .advise-detail .form .form-control {
+        height: 60px;
+    }
+    .article-8 .advise .advise-detail .form .submit-button {
+        height: 44px;
+        max-width: 110px;
+        min-width: auto;
+        padding: 10px;
     }
 
     /* footer */
@@ -457,6 +459,7 @@
     }
     .article-7 .news-event {
         margin-top: 30px;
+        padding: 0;
     }
 
     /* footer */
@@ -475,6 +478,19 @@
     .footer .other-logo {
         align-items: flex-start;
         flex-direction: column;
+    }
+}
+
+/* 500px */
+@media (max-width: 499.98px) {
+    .article-8 .advise .advise-detail .slogan {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .article-8 .advise .advise-detail .form .form-control {
+        max-width: auto;
+        min-width: auto;
+        width: 100%;
     }
 }
 
