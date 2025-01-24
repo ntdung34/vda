@@ -15,6 +15,12 @@
         font-size: 40px;
         line-height: 70px;
     }
+
+    /* article-7 */
+    /* .article-7 .slogan p {
+        font-size: 40px;
+        line-height: 70px;
+    } */
 }
 
 /* 1400px */
@@ -64,13 +70,18 @@
 
 /* 1300px */
 @media (max-width: 1299.98px) {
-    
+
     /* article-6 */
     .article-6 {
-        padding: 100px;
+        padding: 70px 30px;
     }
     .article-6 .showroom .showroom-image img {
         height: 200px;
+    }
+
+    /* article-7 */
+    .article-7 {
+        padding: 70px 30px;
     }
 }
 
@@ -86,15 +97,18 @@
     }
 
     /* article-4 */
+    .article-4 {
+        padding: 70px 30px;
+    }
     .article-3 .slogan,
     .article-4 .slogan {
-        font-size: 60px;
+        font-size: 57px;
     }
     .article-3 .slogan .slogan-main img,
     .article-4 .slogan .slogan-main img {
         height: 150px;
     }
-    .article-3 .sale,
+    .article-3 .product,
     .article-4 .sale {
         margin-top: 30px;
     }
@@ -135,7 +149,7 @@
 
     /* article-5 */
     .article-5 .statement {
-        padding: 70px;
+        padding: 70px 30px;
     }
     .article-5 .statement .statement-detail {
         padding: 0;
@@ -146,6 +160,11 @@
     }
 
     /* article-6 */
+    .article-6 .showroom .discover-all {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
     .article-6 .showroom .showroom-image {
         display: none;
     }
@@ -199,10 +218,16 @@
         bottom: -110%;
     }
 
-    /* article-3 */
-    .article-2 .slogan,
-    .article-3 .slogan {
+    /* article-2 */
+    .article-2 .slogan {
         font-size: 45px;
+    }
+
+    .article-3 .slogan {
+        font-size: 40px;
+    }
+    .article-3 .slogan .slogan-main {
+        gap: 10px;
     }
     .article-3 .slogan .slogan-main img {
         height: 120px;
@@ -275,29 +300,44 @@
         height: 120px;
     }
 
-    /* article-3 */
-    .article-2,
-    .article-3 {
-        padding-top: 80px;
-        padding-bottom: 90px;
+    /* article-2 */
+    .article-2 {
+        padding: 70px 30px;
     }
-    .article-3 .slogan {
-        font-size: 30px;
+    .article-2 .sale {
+        margin-top: 50px;
+    }
+
+    /* article-3 */
+    .article-3 {
+        padding: 70px 30px;
+    }
+    .article-3 .slogan .slogan-main {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
     }
     .article-3 .slogan .slogan-main img {
-        height: 50px;
+        max-height: 80px;
+        min-height: 80px;
+        max-width: 80px;
+        min-width: 80px;
     }
 
     /* article-4 */
     .article-4 {
-        padding-top: 80px;
-        padding-bottom: 90px;
+        padding: 70px 30px;
     }
-    .article-4 .slogan {
-        font-size: 30px;
+    .article-4 .slogan .slogan-main {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
     }
     .article-4 .slogan .slogan-main img {
-        height: 80px;
+        max-height: 80px;
+        min-height: 80px;
+        max-width: 80px;
+        min-width: 80px;
     }
 
     /* article-5 */
@@ -316,7 +356,8 @@
     }
     .article-6 .showroom .showroom-adrress .header p {
         font-size: 30px;
-    }.article-6 .showroom .showroom-city {
+    }
+    .article-6 .showroom .showroom-city {
         margin-top: 23px;
     }
 
@@ -352,17 +393,41 @@
 
     /* article-2 */
     .article-2 .slogan {
-        font-size: 35px;
+        font-size: 30px;
     }
     .article-2 .slogan .detail {
         font-size: 15px;
     }
 
-    /* article-5 */
-    .article-5 .statement .statement-detail .subject {
-        font-size: 40px;
-        line-height: 55px;
+    /* article-3 */
+    .article-3 .slogan {
+        font-size: 23px;
     }
+    .article-3 .product .card,
+    .article-3 .product .card .card-img,
+    .article-3 .product .card .card-img img {
+        max-height: 250px;
+        min-height: 250px;
+        min-width: 390px;
+        max-width: 390px;
+    }
+    .article-3 .product .card .card-detail {
+        margin-bottom: 10px;
+        margin-left: 24px;
+    }
+    .article-3 .product .card .card-detail .product-name {
+        font-size: 25px;
+    }
+    .article-3 .product .card .card-detail .product-quantity {
+        font-size: 19px;
+    }
+
+    /* article-4 */
+    .article-4 .slogan {
+        font-size: 27px;
+    }
+
+    /* article-5 */
     .article-5 .statement .statement-detail .content {
         margin-top: 55px;
         width: auto;
@@ -370,8 +435,19 @@
 
     /* article-6 */
     .article-6 .showroom .showroom-adrress {
-        max-width: 400px;
-        min-width: 400px;
+        max-width: 300px;
+        min-width: 300px;
+    }
+    .article-6 .showroom .showroom-adrress .header p {
+        font-size: 23px;
+    }
+
+    /* srticle-7 */
+    .article-7 .slogan {
+        font-size: 30px;
+    }
+    .article-7 .news-event {
+        margin-top: 30px;
     }
 
     /* footer */
