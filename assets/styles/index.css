@@ -218,6 +218,7 @@ nav.navbar .showroom {
 .article-2 .sale {
     gap: 30px;
     margin-top: 80px;
+    padding: 0;
     width: 100%;
 }
 .article-2 .sale .card {

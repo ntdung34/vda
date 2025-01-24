@@ -278,8 +278,8 @@
         padding-top: 60px;
     }
     .article-1 .slogan {
-        font-size: 60px;
-        line-height: 85px;
+        font-size: 50px;
+        line-height: 75px;
     }
     .article-1 .mascot {
         left: 35%;
@@ -298,6 +298,12 @@
     }
     .article-1 .electric img {
         height: 120px;
+    }
+    .article-1 .discover-more {
+        margin-top: 25px;
+    }
+    .article-1 .discover-more .discover-more-button {
+        width: 200px;
     }
 
     /* article-2 */
@@ -322,6 +328,9 @@
         min-height: 80px;
         max-width: 80px;
         min-width: 80px;
+    }
+    .article-3 .discover-all .discover-all-button {
+        width: 200px;
     }
 
     /* article-4 */
@@ -413,10 +422,10 @@
     }
     .article-3 .product .card .card-detail {
         margin-bottom: 10px;
-        margin-left: 24px;
+        margin-left: 30px;
     }
     .article-3 .product .card .card-detail .product-name {
-        font-size: 25px;
+        font-size: 20px;
     }
     .article-3 .product .card .card-detail .product-quantity {
         font-size: 19px;
@@ -435,7 +444,7 @@
 
     /* article-6 */
     .article-6 .showroom .showroom-adrress {
-        max-width: 300px;
+        /* max-width: 300px; */
         min-width: 300px;
     }
     .article-6 .showroom .showroom-adrress .header p {
