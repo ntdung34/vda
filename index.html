@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Test</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="assets/image_1.png" alt="image_1.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex me-auto search-form" role="search">
+                    <input class="form-control me-2 search-input" type="search" placeholder="Từ khóa tìm kiếm..."
+                        aria-label="Search">
+                    <button class="search-button">
+                        <img class="search-icon" src="assets/search.png" alt="search.png" />
+                    </button>
+                </form>
+                <div class="align-items-center d-flex right-wrapper">
+                    <div class="d-flex auth">
+                        <img class="user-icon" src="assets/user.png" alt="user.png" />
+                        <div><a href="#">Đăng ký</a> | <a href="#">Đăng nhập</a></div>
+                    </div>
+                    <div class="cart">
+                        <img src="assets/basket_alt_3.png" alt="basket_alt_3.png">
+                    </div>
+                </div>
+                <div class="links">
+                    <a href="#">
+                        <span>Về Chúng Tôi</span>
+                    </a>
+                    <a href="#">
+                        <span>Sản Phẩm</span>
+                        <span>
+                            <img src="assets/eva_arrow-ios-downward-outline.png" alt="" />
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span>Khuyến Mãi</span>
+                    </a>
+                    <a href="#">
+                        <span>Tin Tức</span>
+                    </a>
+                    <a href="#">
+                        <span>Liên Hệ</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container justify-content-between">
+            <div class="d-flex links">
+                <a href="#">
+                    <span>Về Chúng Tôi</span>
+                </a>
+                <a href="#">
+                    <span>Sản Phẩm</span>
+                    <span>
+                        <img src="assets/eva_arrow-ios-downward-outline.png" alt="" />
+                    </span>
+                </a>
+                <a href="#">
+                    <span>Khuyến Mãi</span>
+                </a>
+                <a href="#">
+                    <span>Tin Tức</span>
+                </a>
+                <a href="#">
+                    <span>Liên Hệ</span>
+                </a>
+            </div>
+            <div class="align-items-center d-flex showroom">
+                <img src="assets/shop_1.png" alt="shop_1.png" />
+                <span>120 Showroom toàn quốc</span>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <!-- Article 1 -->
+        <article class="article-1">
+            <div class="container slogan">
+                <p class="slogan-main">
+                    From <span class="word">Stress</span><br />To <span class="word">Serenity</span>
+                </p>
+                <div class="mascot">
+                    <img src="assets/article 1/mascot_1.png" alt="mascot_1.png" />
+                </div>
+                <div class="ellipse">
+                    <img src="assets/article 1/ellipse_1.png" alt="ellipse.png" />
+                </div>
+                <div class="electric">
+                    <img src="assets/article 1/electric.png" alt="electric.png" />
+                </div>
+            </div>
+            <div class="container discover-more">
+                <button class="discover-more-button">
+                    <span>DISCOVER MORE</span>
+                    <span>
+                        <svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.7439 6.40866L15.6014 0.243668C15.4362 0.0852305 15.2154 -0.0022176 14.9865 4.27524e-05C14.7575 0.0023031 14.5386 0.0940923 14.3765 0.255762C14.2144 0.417432 14.122 0.636135 14.1191 0.865056C14.1162 1.09398 14.2031 1.31492 14.3611 1.4806L18.9778 6.11337H1.87597C1.75663 6.10605 1.63706 6.12324 1.52461 6.16388C1.41217 6.20451 1.30923 6.26773 1.22214 6.34964C1.13505 6.43155 1.06564 6.53043 1.0182 6.64017C0.970763 6.74991 0.946289 6.8682 0.946289 6.98775C0.946289 7.10731 0.970763 7.2256 1.0182 7.33534C1.06564 7.44508 1.13505 7.54395 1.22214 7.62586C1.30923 7.70777 1.41217 7.77099 1.52461 7.81162C1.63706 7.85226 1.75663 7.86945 1.87597 7.86214H19.0468L14.3644 12.4916C14.2753 12.5708 14.2033 12.6673 14.1529 12.7753C14.1024 12.8832 14.0744 13.0004 14.0708 13.1195C14.0671 13.2386 14.0878 13.3572 14.1316 13.4681C14.1754 13.5789 14.2413 13.6797 14.3253 13.7642C14.4094 13.8486 14.5098 13.9151 14.6204 13.9595C14.7311 14.0038 14.8496 14.0251 14.9687 14.0221C15.0879 14.0191 15.2051 13.9918 15.3134 13.9419C15.4216 13.892 15.5185 13.8205 15.5982 13.7318L21.7407 7.64887C21.8222 7.5675 21.8869 7.47084 21.9311 7.36444C21.9752 7.25803 21.9979 7.14396 21.9979 7.02876C21.9979 6.91356 21.9752 6.7995 21.9311 6.69309C21.8869 6.58668 21.8222 6.49003 21.7407 6.40866H21.7439Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+            <div class="carousel-dots">
+                <img src="assets/article 1/carousel_dots.png" alt="carousel_dots.png" />
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="article-2">
+            <div class="container d-flex flex-column slogan">
+                <p class="slogan-main">Flash Sale Mùa Vu lan</p>
+                <p class="slogan-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin<br />lobortis
+                    sed sapien in pretium. Donec tincidunt, quam.
+                </p>
+                <div class="mascot">
+                    <img src="assets/article 2/mascot_2.png" alt="mascot_2.png" />
+                </div>
+                <!-- <div class="ellipse">
+                    <img src="assets/article 2/ellipse_2.png" alt="ellipse_2.png" />
+                </div> -->
+            </div>
+            <div class="container d-flex sale">
+                <div class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 2/sale_1.png" alt="sale_1.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">16.900.000đ</p>
+                                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 2/sale_2.png" alt="sale_2.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A24 NEW</p>
+                                        <p class="sale-product-default-price">20.000.000đ</p>
+                                        <p class="sale-product-reduced-price">14.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 2/sale_3.png" alt="sale_3.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">16.900.000đ</p>
+                                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 2/sale_4.png" alt="sale_4.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">18.900.000đ</p>
+                                        <p class="sale-product-reduced-price">13.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="article-3">
+            <div class="align-items-center container d-flex justify-content-center slogan">
+                <p class="slogan-main">
+                    <img src="assets/article 3/premium_quality_1.png" alt="premium_quality_1.png">
+                    DANH MỤC SẢN PHẨM
+                </p>
+            </div>
+            <div class="container d-flex justify-content-center product">
+                <div class="card">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 3/product_1.png" alt="product_1.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="product-name">Ghế Massage</p>
+                        <p class="product-quantity">10 sản phẩm</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 3/product_2.png" alt="product_2.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="product-name">Xe Đạp</p>
+                        <p class="product-quantity">15 sản phẩm</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 3/product_3.png" alt="product_3.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="product-name">Máy Chạy Bộ</p>
+                        <p class="product-quantity">15 sản phẩm</p>
+                    </div>
+                </div>
+                <!-- <div class="d-flex justify-content-center long-slide">
+                    <div class="card">
+                        <div class="align-items-center card-img">
+                            <img src="assets/article 3/product_1.png" alt="product_1.png" />
+                        </div>
+                        <div class="card-detail">
+                            <p class="product-name">Ghế Massage</p>
+                            <p class="product-quantity">10 sản phẩm</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="align-items-center card-img">
+                            <img src="assets/article 3/product_2.png" alt="product_2.png" />
+                        </div>
+                        <div class="card-detail">
+                            <p class="product-name">Xe Đạp</p>
+                            <p class="product-quantity">15 sản phẩm</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="align-items-center card-img">
+                            <img src="assets/article 3/product_3.png" alt="product_3.png" />
+                        </div>
+                        <div class="card-detail">
+                            <p class="product-name">Máy Chạy Bộ</p>
+                            <p class="product-quantity">15 sản phẩm</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="container d-flex justify-content-center discover-all">
+                <button class="discover-all-button">
+                    <span>Xem Tất Cả</span>
+                    <span>
+                        <svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.7439 6.40866L15.6014 0.243668C15.4362 0.0852305 15.2154 -0.0022176 14.9865 4.27524e-05C14.7575 0.0023031 14.5386 0.0940923 14.3765 0.255762C14.2144 0.417432 14.122 0.636135 14.1191 0.865056C14.1162 1.09398 14.2031 1.31492 14.3611 1.4806L18.9778 6.11337H1.87597C1.75663 6.10605 1.63706 6.12324 1.52461 6.16388C1.41217 6.20451 1.30923 6.26773 1.22214 6.34964C1.13505 6.43155 1.06564 6.53043 1.0182 6.64017C0.970763 6.74991 0.946289 6.8682 0.946289 6.98775C0.946289 7.10731 0.970763 7.2256 1.0182 7.33534C1.06564 7.44508 1.13505 7.54395 1.22214 7.62586C1.30923 7.70777 1.41217 7.77099 1.52461 7.81162C1.63706 7.85226 1.75663 7.86945 1.87597 7.86214H19.0468L14.3644 12.4916C14.2753 12.5708 14.2033 12.6673 14.1529 12.7753C14.1024 12.8832 14.0744 13.0004 14.0708 13.1195C14.0671 13.2386 14.0878 13.3572 14.1316 13.4681C14.1754 13.5789 14.2413 13.6797 14.3253 13.7642C14.4094 13.8486 14.5098 13.9151 14.6204 13.9595C14.7311 14.0038 14.8496 14.0251 14.9687 14.0221C15.0879 14.0191 15.2051 13.9918 15.3134 13.9419C15.4216 13.892 15.5185 13.8205 15.5982 13.7318L21.7407 7.64887C21.8222 7.5675 21.8869 7.47084 21.9311 7.36444C21.9752 7.25803 21.9979 7.14396 21.9979 7.02876C21.9979 6.91356 21.9752 6.7995 21.9311 6.69309C21.8869 6.58668 21.8222 6.49003 21.7407 6.40866H21.7439Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 4 -->
+        <article class="article-4">
+            <div class="align-items-center container d-flex justify-content-center slogan">
+                <p class="slogan-main">
+                    <img src="assets/article 4/best_seller_1.png" alt="best_seller_1.png">
+                    Ghế Massage ABCSport
+                </p>
+            </div>
+            <div class="container d-flex justify-content-center sale">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 4/coach_1.png" alt="coach_1.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">16.900.000đ</p>
+                                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 4/coach_2.png" alt="coach_2.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">16.900.000đ</p>
+                                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 4/coach_3.png" alt="coach_3.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">16.900.000đ</p>
+                                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 4/coach_1.png" alt="coach_1.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">16.900.000đ</p>
+                                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 4/coach_2.png" alt="coach_2.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">16.900.000đ</p>
+                                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 4/coach_3.png" alt="coach_3.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                                        <p class="sale-product-default-price">16.900.000đ</p>
+                                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- <div class="container d-flex justify-content-center sale">
+                <div class="card">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 4/coach_1.png" alt="coach_1.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="sale-product-name">Ghế massage ABCSport A35</p>
+                        <p class="sale-product-default-price">16.900.000đ</p>
+                        <p class="sale-product-reduced-price">12.900.000đ</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 4/coach_2.png" alt="coach_2.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="sale-product-name">Ghế massage ABCSport A24 NEW</p>
+                        <p class="sale-product-default-price">20.000.000đ</p>
+                        <p class="sale-product-reduced-price">14.900.000đ</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 4/coach_3.png" alt="coach_3.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="sale-product-name">Ghế Massage ABCSport Premium A32</p>
+                        <p class="sale-product-default-price">150.000.000đ</p>
+                        <p class="sale-product-reduced-price">98.000.000đ</p>
+                    </div>
+                </div>
+            </div> -->
+        </article>
+
+        <!-- Article 5 -->
+        <article class="article-5">
+            <div class="align-items-center d-flex justify-content-center statement">
+                <div class="statement-detail">
+                    <div class="statement-wrapper">
+                        <div class="subject">
+                            <p>Khách hàng nói gì về ABCSport</p>
+                        </div>
+                        <div class="content">
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis erat
+                                posuere, tincidunt sem at, sagittis dolor. Sed malesuada orci erat, ut interdum lorem
+                                rhoncus eu. Donec justo urna, mattis non maximus.”</p>
+                        </div>
+                        <div class="sign">
+                            <p class="name">Nikky Kimso</p>
+                            <span class="title">Customer</span>
+                        </div>
+                        <div class="d-flex justify-content-end pe-4">
+                            <img src="assets/article 5/navigation.png" alt="navigation.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="assets/article 5/placeholder.png" alt="placeholder.png" />
+                </div>
+            </div>
+            <!-- <div class="ellipse">
+                <img src="assets/article 5/ellipse_14.png" alt="ellipse_14.png" />
+            </div> -->
+        </article>
+
+        <!-- Article 6 -->
+        <article class="article-6">
+            <div class="align-items-center d-flex justify-content-center showroom">
+                <div class="showroom-image">
+                    <img loading="lazy" src="assets/article 6/placeholder_1.png" alt="placeholder_1.png" />
+                    <img loading="lazy" src="assets/article 6/placeholder_2.png" alt="placeholder_2.png" />
+                </div>
+                <div class="showroom-adrress">
+                    <div class="header">
+                        <p>120 Showroom Toàn Quốc</p>
+                    </div>
+                    <div class="showroom-city">
+                        <ul class="nav nav-underline" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" data-bs-toggle="tab" href="#haNoi">Hà
+                                    Nội</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" data-bs-toggle="tab" href="#hoChiMinh">Hồ Chí
+                                    Minh</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" data-bs-toggle="tab" href="#mienBac">Miền
+                                    Bắc</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" data-bs-toggle="tab" href="#mienTrung">Miền
+                                    Trung</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" data-bs-toggle="tab" href="#mienNam">Miền
+                                    Nam</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active separate" id="haNoi" role="tabArticle"
+                                aria-labelledby="haNoi-tab">
+                                <div class="content">
+                                    <p class="showroom-name">ABCSport Đống Đa</p>
+                                    <p class="showroom-address">94 Nguyễn Lương Bằng, Phường Nam Đồng, Quận Đống Đa, Hà
+                                        Nội</p>
+                                    <p class="showroom-phone-number">Điện thoại: (024) 6259 1760</p>
+                                    <p class="showroom-map">
+                                        <span class="open-map">Xem bản đồ</span> (Có chỗ đậu ô tô)
+                                    </p>
+                                </div>
+                                <div class="content">
+                                    <p class="showroom-name">ABCSport Hà Đông</p>
+                                    <p class="showroom-address">96 Lê Trọng Tấn, P. La Khê, Q. Hà Đông, Hà Nội</p>
+                                    <p class="showroom-phone-number">Điện thoại: (024) 6296 93 94</p>
+                                    <p class="showroom-map">
+                                        <span class="open-map">Xem bản đồ</span> (Có chỗ đậu ô tô)
+                                    </p>
+                                </div>
+                                <div class="content">
+                                    <p class="showroom-name">ABCSport Long Biên</p>
+                                    <p class="showroom-address">575-577 Nguyễn Văn Cừ, Tổ 16, Phường Gia Thuỵ, Quận Long
+                                        Biên, Hà Nội</p>
+                                    <p class="showroom-phone-number">Điện thoại: (024) 6672 2738</p>
+                                    <p class="showroom-map">
+                                        <span class="open-map">Xem bản đồ</span> (Có chỗ đậu ô tô)
+                                    </p>
+                                </div>
+                                <div class="content">
+                                    <p class="showroom-name">ABCSport Đống Đa</p>
+                                    <p class="showroom-address">94 Nguyễn Lương Bằng, Phường Nam Đồng, Quận Đống Đa, Hà
+                                        Nội</p>
+                                    <p class="showroom-phone-number">Điện thoại: (024) 6259 1760</p>
+                                    <p class="showroom-map">
+                                        <span class="open-map">Xem bản đồ</span> (Có chỗ đậu ô tô)
+                                    </p>
+                                </div>
+                                <div class="content">
+                                    <p class="showroom-name">ABCSport Hà Đông</p>
+                                    <p class="showroom-address">96 Lê Trọng Tấn, P. La Khê, Q. Hà Đông, Hà Nội</p>
+                                    <p class="showroom-phone-number">Điện thoại: (024) 6296 93 94</p>
+                                    <p class="showroom-map">
+                                        <span class="open-map">Xem bản đồ</span> (Có chỗ đậu ô tô)
+                                    </p>
+                                </div>
+                                <div class="content">
+                                    <p class="showroom-name">ABCSport Long Biên</p>
+                                    <p class="showroom-address">575-577 Nguyễn Văn Cừ, Tổ 16, Phường Gia Thuỵ, Quận Long
+                                        Biên, Hà Nội</p>
+                                    <p class="showroom-phone-number">Điện thoại: (024) 6672 2738</p>
+                                    <p class="showroom-map">
+                                        <span class="open-map">Xem bản đồ</span> (Có chỗ đậu ô tô)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade separate" id="hoChiMinh" role="tabArticle"
+                                aria-labelledby="hoChiMinh-tab">
+                                <div class="content">
+                                    <p class="showroom-name">ABCSport Thủ Đức</p>
+                                    <p class="showroom-address">10 Lương Đình Của, Phường An Khánh, Thủ Đức, Hồ Chí Minh
+                                    </p>
+                                    <p class="showroom-phone-number">Điện thoại: (024) 934 8638</p>
+                                    <p class="showroom-map">
+                                        <span class="open-map">Xem bản đồ</span> (Có chỗ đậu ô tô)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade separate" id="mienBac" role="tabArticle"
+                                aria-labelledby="mienBac-tab">
+                                <div>
+                                    <p>Đang cập nhật...</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade separate" id="mienTrung" role="tabArticle"
+                                aria-labelledby="mienTrung-tab">
+                                <div>
+                                    <p>Đang cập nhật...</p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade separate" id="mienNam" role="tabArticle"
+                                aria-labelledby="mienNam-tab">
+                                <div>
+                                    <p>Đang cập nhật...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="discover-all">
+                        <button class="discover-all-button">
+                            <span>Xem Tất Cả</span>
+                            <span>
+                                <svg width="22" height="15" viewBox="0 0 22 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.7439 6.40866L15.6014 0.243668C15.4362 0.0852305 15.2154 -0.0022176 14.9865 4.27524e-05C14.7575 0.0023031 14.5386 0.0940923 14.3765 0.255762C14.2144 0.417432 14.122 0.636135 14.1191 0.865056C14.1162 1.09398 14.2031 1.31492 14.3611 1.4806L18.9778 6.11337H1.87597C1.75663 6.10605 1.63706 6.12324 1.52461 6.16388C1.41217 6.20451 1.30923 6.26773 1.22214 6.34964C1.13505 6.43155 1.06564 6.53043 1.0182 6.64017C0.970763 6.74991 0.946289 6.8682 0.946289 6.98775C0.946289 7.10731 0.970763 7.2256 1.0182 7.33534C1.06564 7.44508 1.13505 7.54395 1.22214 7.62586C1.30923 7.70777 1.41217 7.77099 1.52461 7.81162C1.63706 7.85226 1.75663 7.86945 1.87597 7.86214H19.0468L14.3644 12.4916C14.2753 12.5708 14.2033 12.6673 14.1529 12.7753C14.1024 12.8832 14.0744 13.0004 14.0708 13.1195C14.0671 13.2386 14.0878 13.3572 14.1316 13.4681C14.1754 13.5789 14.2413 13.6797 14.3253 13.7642C14.4094 13.8486 14.5098 13.9151 14.6204 13.9595C14.7311 14.0038 14.8496 14.0251 14.9687 14.0221C15.0879 14.0191 15.2051 13.9918 15.3134 13.9419C15.4216 13.892 15.5185 13.8205 15.5982 13.7318L21.7407 7.64887C21.8222 7.5675 21.8869 7.47084 21.9311 7.36444C21.9752 7.25803 21.9979 7.14396 21.9979 7.02876C21.9979 6.91356 21.9752 6.7995 21.9311 6.69309C21.8869 6.58668 21.8222 6.49003 21.7407 6.40866H21.7439Z"
+                                        fill="white" />
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Article 7 -->
+        <article class="article-7">
+            <div class="align-items-center container d-flex justify-content-center slogan">
+                <p class="slogan-main">
+                    Tin Tức & Sự Kiện
+                </p>
+            </div>
+            <div class="container d-flex justify-content-center news-event">
+                <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card shadow-sm">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 7/rectangle_1.png" class="card-img-top"
+                                            alt="rectangle_1.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="news-event-product-name">This is card heading</p>
+                                        <p class="news-event-product-datetime">28 Aug,2023 19:55</p>
+                                        <p class="news-event-product-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card shadow-sm">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 7/rectangle_2.png" class="card-img-top"
+                                            alt="rectangle_2.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="news-event-product-name">This is card heading</p>
+                                        <p class="news-event-product-datetime">28 Aug,2023 19:55</p>
+                                        <p class="news-event-product-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card shadow-sm">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 7/rectangle_3.png" class="card-img-top"
+                                            alt="rectangle_3.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="news-event-product-name">This is card heading</p>
+                                        <p class="news-event-product-datetime">28 Aug,2023 19:55</p>
+                                        <p class="news-event-product-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-center">
+                                <div class="card shadow-sm">
+                                    <div class="align-items-center card-img">
+                                        <img src="assets/article 7/rectangle_4.png" class="card-img-top"
+                                            alt="rectangle_4.png" />
+                                    </div>
+                                    <div class="card-detail">
+                                        <p class="news-event-product-name">This is card heading</p>
+                                        <p class="news-event-product-datetime">28 Aug,2023 19:55</p>
+                                        <p class="news-event-product-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <!-- <div class="container d-flex justify-content-center news-event">
+                <div class="card shadow-sm">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 7/rectangle_1.png" class="card-img-top" alt="rectangle_1.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="news-event-product-name">This is card heading</p>
+                        <p class="news-event-product-datetime">28 Aug,2023 19:55</p>
+                        <p class="news-event-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 7/rectangle_2.png" class="card-img-top" alt="rectangle_2.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="news-event-product-name">This is card heading</p>
+                        <p class="news-event-product-datetime">28 Aug,2023 19:55</p>
+                        <p class="news-event-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 7/rectangle_3.png" class="card-img-top" alt="rectangle_3.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="news-event-product-name">This is card heading</p>
+                        <p class="news-event-product-datetime">28 Aug,2023 19:55</p>
+                        <p class="news-event-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="align-items-center card-img">
+                        <img src="assets/article 7/rectangle_4.png" class="card-img-top" alt="rectangle_4.png" />
+                    </div>
+                    <div class="card-detail">
+                        <p class="news-event-product-name">This is card heading</p>
+                        <p class="news-event-product-datetime">28 Aug,2023 19:55</p>
+                        <p class="news-event-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div> -->
+            <div class="container d-flex justify-content-center discover-all">
+                <button class="discover-all-button">
+                    <span>Xem Tất Cả</span>
+                    <span>
+                        <svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.7439 6.40866L15.6014 0.243668C15.4362 0.0852305 15.2154 -0.0022176 14.9865 4.27524e-05C14.7575 0.0023031 14.5386 0.0940923 14.3765 0.255762C14.2144 0.417432 14.122 0.636135 14.1191 0.865056C14.1162 1.09398 14.2031 1.31492 14.3611 1.4806L18.9778 6.11337H1.87597C1.75663 6.10605 1.63706 6.12324 1.52461 6.16388C1.41217 6.20451 1.30923 6.26773 1.22214 6.34964C1.13505 6.43155 1.06564 6.53043 1.0182 6.64017C0.970763 6.74991 0.946289 6.8682 0.946289 6.98775C0.946289 7.10731 0.970763 7.2256 1.0182 7.33534C1.06564 7.44508 1.13505 7.54395 1.22214 7.62586C1.30923 7.70777 1.41217 7.77099 1.52461 7.81162C1.63706 7.85226 1.75663 7.86945 1.87597 7.86214H19.0468L14.3644 12.4916C14.2753 12.5708 14.2033 12.6673 14.1529 12.7753C14.1024 12.8832 14.0744 13.0004 14.0708 13.1195C14.0671 13.2386 14.0878 13.3572 14.1316 13.4681C14.1754 13.5789 14.2413 13.6797 14.3253 13.7642C14.4094 13.8486 14.5098 13.9151 14.6204 13.9595C14.7311 14.0038 14.8496 14.0251 14.9687 14.0221C15.0879 14.0191 15.2051 13.9918 15.3134 13.9419C15.4216 13.892 15.5185 13.8205 15.5982 13.7318L21.7407 7.64887C21.8222 7.5675 21.8869 7.47084 21.9311 7.36444C21.9752 7.25803 21.9979 7.14396 21.9979 7.02876C21.9979 6.91356 21.9752 6.7995 21.9311 6.69309C21.8869 6.58668 21.8222 6.49003 21.7407 6.40866H21.7439Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </article>
+
+        <!-- Article 8 -->
+        <article class="article-8">
+            <div class="align-items-center container d-flex justify-content-end advise">
+                <!-- <div class="advise-image">
+                    <img src="assets/article 8/image_1.png" alt="image_1.png" />
+                </div> -->
+                <div class="advise-detail">
+                    <div class="mascot-wrapper">
+                        <div class="mascot">
+                            <img src="assets/article 8/mascot_1.png" alt="mascot_1.png" />
+                            <img src="assets/article 8/ellipse_11.png" alt="ellipse_11.png" />
+                        </div>
+                        <div class="slogan">
+                            <p>ABCSport luôn sẵn sàng<br />đồng hành cùng bạn</p>
+                        </div>
+                    </div>
+                    <div>
+                        <form class="form">
+                            <input class="form-control" name="fullName" placeholder="Họ và Tên" type="text" />
+                            <div class="wrapper">
+                                <input class="form-control" name="phoneNumber" placeholder="Số điện thoại"
+                                    type="text" />
+                                <button class="submit-button" type="submit">
+                                    <span>Tư Vấn</span>
+                                    <span class="ms-1">
+                                        <svg width="22" height="15" viewBox="0 0 22 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M21.7439 6.40866L15.6014 0.243668C15.4362 0.0852305 15.2154 -0.0022176 14.9865 4.27524e-05C14.7575 0.0023031 14.5386 0.0940923 14.3765 0.255762C14.2144 0.417432 14.122 0.636135 14.1191 0.865056C14.1162 1.09398 14.2031 1.31492 14.3611 1.4806L18.9778 6.11337H1.87597C1.75663 6.10605 1.63706 6.12324 1.52461 6.16388C1.41217 6.20451 1.30923 6.26773 1.22214 6.34964C1.13505 6.43155 1.06564 6.53043 1.0182 6.64017C0.970763 6.74991 0.946289 6.8682 0.946289 6.98775C0.946289 7.10731 0.970763 7.2256 1.0182 7.33534C1.06564 7.44508 1.13505 7.54395 1.22214 7.62586C1.30923 7.70777 1.41217 7.77099 1.52461 7.81162C1.63706 7.85226 1.75663 7.86945 1.87597 7.86214H19.0468L14.3644 12.4916C14.2753 12.5708 14.2033 12.6673 14.1529 12.7753C14.1024 12.8832 14.0744 13.0004 14.0708 13.1195C14.0671 13.2386 14.0878 13.3572 14.1316 13.4681C14.1754 13.5789 14.2413 13.6797 14.3253 13.7642C14.4094 13.8486 14.5098 13.9151 14.6204 13.9595C14.7311 14.0038 14.8496 14.0251 14.9687 14.0221C15.0879 14.0191 15.2051 13.9918 15.3134 13.9419C15.4216 13.892 15.5185 13.8205 15.5982 13.7318L21.7407 7.64887C21.8222 7.5675 21.8869 7.47084 21.9311 7.36444C21.9752 7.25803 21.9979 7.14396 21.9979 7.02876C21.9979 6.91356 21.9752 6.7995 21.9311 6.69309C21.8869 6.58668 21.8222 6.49003 21.7407 6.40866H21.7439Z"
+                                                fill="#FA5A0A" />
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <div class="container footer">
+            <div class="main-logo">
+                <img src="assets/footer/logo.png" alt="logo.png" />
+            </div>
+            <div class="d-flex justify-content-between wrapper">
+                <div class="left-wrapper">
+                    <div class="info">
+                        <p class="company-name">CÔNG TY TNHH ABC SPORT</p>
+                        <p class="">Giấy CNĐKDN: 0316165103</p>
+                        <p class="">Ngày cấp: 26-02-2020</p>
+                        <p class="">Cấp bởi: Sở Kế hoạch và Đầu tư TP.HCM</p>
+                        <p class="">Địa chỉ ĐKKD: Số 8, đường Phú Mỹ 2B, Khu Mỹ Phú 2-S10,<br />KP6, P.Tân Phú, Quận 7
+                        </p>
+                        <p class="">Email: abcsportvietnam@gmail.com</p>
+                    </div>
+                    <div class="other-logo">
+                        <div class="group-1">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-phone">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-youtube">
+                                    <path
+                                        d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                                    <path d="m10 15 5-3-5-3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-facebook">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-instagram">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="group-2">
+                            <span>
+                                <img src="assets/footer/image_6.png" alt="image_6.png" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-wrapper">
+                    <div class="about-us">
+                        <p class="title">Về chúng tôi</p>
+                        <ul>
+                            <li>Về chúng tôi</li>
+                            <li>Định hướng phát triển</li>
+                            <li>Chính sách bảo mật</li>
+                            <li>Cam kết về thông tin</li>
+                            <li>Trả góp qua thẻ tín dụng</li>
+                        </ul>
+                    </div>
+                    <div class="guide">
+                        <p class="title">Hướng dẫn</p>
+                        <ul>
+                            <li>Tiêu chí bán hàng</li>
+                            <li>Chính sách thanh toán</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Chính sách vận chuyển</li>
+                            <li>Chính sách bảo hành</li>
+                        </ul>
+                    </div>
+                    <div class="more">
+                        <p class="title">Xem thêm</p>
+                        <ul>
+                            <li>Tin tức</li>
+                            <li>Thông tin tuyển dụng</li>
+                            <li>Video</li>
+                            <li>Hệ thống phân phối</li>
+                            <li>Liên hệ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 ABCSport. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const
+            s1 = new Swiper( '.mySwiper1', {
+                // centeredSlide: true,
+                slidesPerView: 1,
+
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                breakpoints: {
+                    // when device width >= 1199.98px (1200px)
+                    1199.98: {
+                        slidesPerView: 3,
+                        // spaceBetween: 20
+                    },
+                    // when device width >= 991.98px (992px)
+                    767.98: {
+                        slidesPerView: 1
+                    }
+                },
+
+                // Pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // Scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+            } ),
+            s2 = new Swiper( '.mySwiper2', {
+                // centeredSlide: true,
+                slidesPerView: 1,
+
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                breakpoints: {
+                    // when device width >= 1199.98px (1200px)
+                    1199.98: {
+                        slidesPerView: 2,
+                        // spaceBetween: 20
+                    },
+                    // when device width >= 991.98px (992px)
+                    767.98: {
+                        slidesPerView: 1
+                    }
+                },
+
+                // Pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // Scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+            } ),
+            s3 = new Swiper( '.mySwiper3', {
+                // centeredSlide: true,
+                slidesPerView: 1,
+
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                breakpoints: {
+                    // when device width >= 1199.98px (1200px)
+                    1199.98: {
+                        slidesPerView: 3,
+                        // spaceBetween: 20
+                    },
+                    // when device width >= 991.98px (992px)
+                    767.98: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    }
+                },
+
+                // Pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // Scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+            } );
+
+    </script>
+</body>
+
+</html>

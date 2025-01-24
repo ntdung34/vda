@@ -1,0 +1,400 @@
+
+
+
+/* 1450px */
+@media (max-width: 1449.98px) {
+
+    /* article-6 */
+    .article-6 {
+        padding: 150px 100px;
+    }
+    .article-6 .showroom .showroom-image img {
+        height: 270px;
+    }
+    .article-6 .showroom .showroom-adrress .header p {
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
+
+/* 1400px */
+@media (max-width: 1399.98px) {
+
+    /* header */
+    header.navbar .search-input {
+        min-width: 370px;
+    }
+
+    /* article-1 */
+    .article-1 .mascot {
+        left: 48%;
+        top: 125%;
+    }
+    .article-1 .ellipse {
+        bottom: -145%;
+        left: 45%;
+    }
+    .article-1 .electric {
+        bottom: -45%;
+        left: 45%;
+    }
+
+    /* article-3 */
+    .article-3 .product {
+        flex-wrap: wrap;
+    }
+
+    /* article-5 */
+    .article-5 .statement .statement-detail .subject {
+        font-size: 65px;
+        line-height: 80px;
+    }
+    .article-5 .statement .statement-detail .statement-wrapper {
+        margin: 30px;
+    }
+
+    /* footer */
+    .footer .right-wrapper {
+        gap: 40px;
+    }
+    .footer .about-us .title, .footer .guide .title, .footer .more .title {
+        font-size: 27px;
+    }
+}
+
+/* 1300px */
+@media (max-width: 1299.98px) {
+    
+    /* article-6 */
+    .article-6 {
+        padding: 100px;
+    }
+    .article-6 .showroom .showroom-image img {
+        height: 200px;
+    }
+}
+
+/* 1200px */
+@media (max-width: 1199.98px) {
+
+    /* article-2 */
+    .article-2 .mascot {
+        display: none;
+    }
+    .article-2 .ellipse {
+        display: none;
+    }
+
+    /* article-4 */
+    .article-3 .slogan,
+    .article-4 .slogan {
+        font-size: 60px;
+    }
+    .article-3 .slogan .slogan-main img,
+    .article-4 .slogan .slogan-main img {
+        height: 150px;
+    }
+    .article-3 .sale,
+    .article-4 .sale {
+        margin-top: 30px;
+    }
+
+    /* article-5 */
+    .article-5 .statement .statement-detail .subject {
+        font-size: 57px;
+        line-height: 75px;
+    }
+
+    /* article-8 */
+    .article-8 {
+        padding-top: 137px;
+        padding-bottom: 133px;
+    }
+    .article-8 .advise {
+        /* border: 1px solid white; */
+        border-radius: 7px;
+        backdrop-filter: blur(12px);
+        justify-content: center !important;
+        padding: 70px 20px;
+    }
+    .article-8 .advise .advise-detail .form {
+        margin-top: 37px;
+    }
+
+    /* footer */
+    .footer .wrapper {
+        gap: 40px;
+    }
+    .footer .info .company-name, .footer .about-us .title, .footer .guide .title, .footer .more .title {
+        font-size: 18px;
+    }
+}
+
+/* 1100px */
+@media (max-width: 1099.98px) {
+
+    /* article-5 */
+    .article-5 .statement {
+        padding: 70px;
+    }
+    .article-5 .statement .statement-detail {
+        padding: 0;
+        width: 100%;
+    }
+    .article-5 .statement .image {
+        display: none;
+    }
+
+    /* article-6 */
+    .article-6 .showroom .showroom-image {
+        display: none;
+    }
+}
+
+/* 992px */
+@media (max-width: 991.98px) {
+
+    /* header */
+    header.navbar .search-form {
+        margin-top: 10px;
+    }
+    header.navbar .right-wrapper {
+        margin: 10px 0px;
+    }
+    header.navbar .links {
+        justify-content: space-between;
+    }
+    header.navbar .links a {
+        color: #FFFFFF;
+        font-family: "Nunito", serif;
+        font-size: 20px;
+        padding: 0 15px;
+        transition: .17s;
+        text-decoration: none;
+    }
+    nav.navbar .links {
+        display: none !important;
+    }
+
+    /* article-1 */
+    .article-1 .slogan {
+        font-size: 70px;
+        line-height: 90px;
+    }
+    .article-1 .mascot {
+        left: 52%;
+        top: 180%;
+    }
+    .article-1 .ellipse {
+        bottom: -260%;
+        left: 45%;
+    }
+    .article-1 .electric {
+        bottom: -110%;
+    }
+
+    /* article-3 */
+    .article-2 .slogan,
+    .article-3 .slogan {
+        font-size: 45px;
+    }
+    .article-3 .slogan .slogan-main img {
+        height: 120px;
+    }
+
+    /* article-4 */
+    .article-4 .slogan {
+        font-size: 40px;
+    }
+    .article-4 .slogan .slogan-main img {
+        height: 120px;
+    }
+
+    /* article-7 */
+    .article-7 .news-event .slide-center,
+    .article-7 .news-event .card {
+        max-height: 340px !important;
+        min-height: 340px !important;
+        max-width: 340px !important;
+        min-width: 340px !important;
+    }
+
+    /* article-8 */
+    .article-8 .advise .advise-detail .mascot-wrapper .mascot {
+        display: none;
+    }
+    .article-8 .advise .advise-detail .form {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* footer */
+    .footer .wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer .right-wrapper {
+        /* gap: unset; */
+        justify-content: space-between;
+    }
+}
+
+/* 768px */
+@media (max-width: 767.98px) {
+
+    /* header */
+    header.navbar .links {
+        display: flex;
+        flex-direction: column;
+    }
+    header.navbar .links a:hover {
+        background-color: #FFFFFF;
+        color: #FA5A0A;
+    }
+
+    /* article-1 */
+    .article-1 {
+        padding-top: 60px;
+    }
+    .article-1 .slogan {
+        font-size: 60px;
+        line-height: 85px;
+    }
+    .article-1 .mascot {
+        left: 35%;
+        top: 240%;
+    }
+    .article-1 .mascot img {
+        height: 170px;
+    }
+    .article-1 .ellipse {
+        bottom: -330%;
+        left: 30%;
+    }
+    .article-1 .electric {
+        left: 30%;
+        bottom: -155%;
+    }
+    .article-1 .electric img {
+        height: 120px;
+    }
+
+    /* article-3 */
+    .article-2,
+    .article-3 {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    .article-3 .slogan {
+        font-size: 30px;
+    }
+    .article-3 .slogan .slogan-main img {
+        height: 50px;
+    }
+
+    /* article-4 */
+    .article-4 {
+        padding-top: 80px;
+        padding-bottom: 90px;
+    }
+    .article-4 .slogan {
+        font-size: 30px;
+    }
+    .article-4 .slogan .slogan-main img {
+        height: 80px;
+    }
+
+    /* article-5 */
+    .article-5 .statement .statement-detail .statement-wrapper {
+        margin: 0;
+    }
+    .article-5 .statement .statement-detail .subject {
+        font-size: 37px;
+        line-height: 50px;
+    }
+
+    /* article-6 */
+    .article-6 .showroom .showroom-adrress {
+        max-width: 500px;
+        min-width: 500px;
+    }
+    .article-6 .showroom .showroom-adrress .header p {
+        font-size: 30px;
+    }.article-6 .showroom .showroom-city {
+        margin-top: 23px;
+    }
+
+    /* article-7 */
+    .article-7 .slogan {
+        font-size: 40px;
+    }
+    .article-7 .news-event .slide-center {
+        /* max-height: 340px !important;
+        min-height: 340px !important; */
+        max-width: 516px !important;
+        min-width: 516px !important;
+    }
+
+    /* article-8 */
+    .article-8 {
+        padding-top: 37px;
+        padding-bottom: 33px;
+    }
+    .article-8 .advise .advise-detail .slogan {
+        font-size: 30px;
+        line-height: 53px;
+    }
+
+    /* footer */
+    footer {
+        padding-top: 77px;
+    }
+}
+
+/* 576px */
+@media (max-width: 575.98px) {
+
+    /* article-2 */
+    .article-2 .slogan {
+        font-size: 35px;
+    }
+    .article-2 .slogan .detail {
+        font-size: 15px;
+    }
+
+    /* article-5 */
+    .article-5 .statement .statement-detail .subject {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .article-5 .statement .statement-detail .content {
+        margin-top: 55px;
+        width: auto;
+    }
+
+    /* article-6 */
+    .article-6 .showroom .showroom-adrress {
+        max-width: 400px;
+        min-width: 400px;
+    }
+
+    /* footer */
+    footer {
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+    .footer .wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer .right-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer .other-logo {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+

@@ -1,0 +1,852 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html, body {
+    padding: 0;
+}
+/* 
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1550px !important;
+    }
+} */
+
+/* Swiper */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    border: 1px solid #B4B8BC;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #6A7682;
+    font-size: 20px !important;
+    min-height: 47px !important;
+    justify-content: center;
+    min-width: 47px !important;
+}
+
+
+/* header.navbar */
+header.navbar {
+    color: #FFFFFF;
+    background-color: #FA5A0A;
+    min-height: 116px;
+}
+header.navbar .links {
+    display: none;
+}
+header.navbar .navbar-brand {
+    margin-right: 50px !important;
+}
+header.navbar .search-form {
+    position: relative;
+}
+header.navbar .search-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    padding: 3px;
+    position: absolute;
+    right: 23px;
+    top: 12px;
+}
+header.navbar .search-icon {
+    height: 26px;
+    width: 26px;
+}
+header.navbar .search-input {
+    min-height: 58px;
+    min-width: 700px;
+}
+header.navbar .right-wrapper {
+    gap: 30px;
+}
+header.navbar .auth {
+    gap: 10px;
+}
+header.navbar .auth .user-icon {
+    height: 24px;
+    width: 24px;
+}
+header.navbar .auth a {
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* nav.navbar */
+nav.navbar {
+    color: #FFFFFF;
+    background-color: #05141F;
+    font-family: "Nunito", serif;
+    font-size: 20px;
+    max-height: 56px;
+    min-height: 56px;
+}
+nav.navbar .links {
+    gap: 60px;
+}
+nav.navbar .links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav.navbar .showroom {
+    color: #FA5A0A;
+    gap: 8px;
+}
+
+/* main */
+
+/* article-1 */
+.article-1 {
+    /* background: linear-gradient( to right, #F0F0F0, #F2F2F2 ); */
+    background-image: url('../article 1/article_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 820px;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    position: relative;
+    width: 100%;
+}
+.article-1 .carousel-dots {
+    bottom: 60px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.article-1 .slogan {
+    font-family: "Nunito", serif;
+    font-size: 95px;
+    line-height: 125px;
+    font-weight: 200;
+    position: relative;
+}
+.article-1 .slogan .word {
+    color: #FA5A0A;
+    font-weight: 700;
+}
+.article-1 .discover-more {
+    margin-top: 40px;
+}
+.article-1 .discover-more .discover-more-button {
+    border-radius: 50px;
+    border: 0px;
+    background-color: #FA5A0A;
+    color: #FFFFFF;
+    height: 65px;
+    transition: 0.17s;
+    width: 270px;
+}
+.article-1 .discover-more .discover-more-button:hover {
+    background-color: #FB8E58;
+}
+.article-1 .mascot, .article-1 .ellipse, .article-1 .electric {
+    position: absolute;
+}
+.article-1 .mascot {
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.article-1 .ellipse {
+    left: 50%;
+    bottom: -35%;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+.article-1 .electric {
+    left: 47%;
+    bottom: 210px;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+/* article-2 */
+.article-2 {
+    /* background: linear-gradient( to top right, #F0F0F0, #F2F2F2 ); */
+    background-image: url('../article 2/article_2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 960px; */
+    padding-top: 139px;
+    padding-bottom: 139px;
+    width: 100%;
+}
+.article-2 .slogan {
+    font-family: "Nunito", serif;
+    font-size: 76px;
+    font-weight: bolder;
+    gap: 20px;
+    position: relative;
+    text-align: center;
+}
+.article-2 .slogan .slogan-main {
+    color: #FB8E58;
+    margin-bottom: 0px !important;
+}
+.article-2 .slogan .slogan-detail {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.article-2 .mascot, .article-2 .ellipse {
+    position: absolute;
+}
+.article-2 .mascot {
+    bottom: 60px;
+    right: 0px;
+    z-index: 2;
+}
+.article-2 .ellipse {
+    bottom: -105px;
+    right: -162px;
+    z-index: 0;
+}
+.article-2 .sale {
+    gap: 30px;
+    margin-top: 80px;
+    width: 100%;
+}
+.article-2 .sale .card {
+    background-color: #FFFFFF;
+    gap: 20px;
+    max-height: 490px;
+    min-height: 490px;
+    max-width: 360px;
+    min-width: 360px;
+    padding: 20px;
+}
+.article-2 .sale .card .card-img {
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+.article-2 .sale .card .card-detail {
+    font-family: "Nunito", serif;
+    max-height: 94px;
+}
+.article-2 .sale .card .card-detail .sale-product-name, .article-2 .sale .card .card-detail .sale-product-default-price, .article-2 .sale .card .card-detail .sale-product-reduced-price {
+    margin-bottom: 0px !important;
+}
+.article-2 .sale .card .card-detail .sale-product-name {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.article-2 .sale .card .card-detail .sale-product-default-price {
+    color: #82898F;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.article-2 .sale .card .card-detail .sale-product-reduced-price {
+    color: #FA5A0A;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* article-3 */
+.article-3 {
+    padding-top: 113px;
+    padding-bottom: 129px;
+    position: relative;
+    width: 100%;
+}
+.article-3 .slogan {
+    font-family: "Nunito", serif;
+    font-size: 76px;
+    font-weight: bolder;
+    gap: 20px;
+    text-align: center;
+}
+.article-3 .slogan .slogan-main {
+    color: #FB8E58;
+    margin-bottom: 0px !important;
+}
+.article-3 .slogan .slogan-detail {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.article-3 .product {
+    gap: 30px;
+    margin-top: 70px;
+    max-width: 1860px !important;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    white-space: no-wrap;
+    z-index: 2;
+}
+.article-3 .product .card {
+    background-color: #FFFFFF;
+    gap: 30px;
+    max-height: 400px;
+    min-height: 400px;
+    max-width: 490px;
+    min-width: 490px;
+    position: relative;
+}
+.article-3 .product .card .card-img {
+    border: 1px solid #f1f1f1;
+    border: none;
+    height: 100%;
+    min-height: 400px;
+    min-width: 490px;
+    width: 100%;
+}
+.article-3 .product .card .card-img img {
+    height: 100%;
+    max-height: 400px;
+    min-height: 400px;
+    min-width: 490px;
+    width: 100%;
+}
+.article-3 .product .card .card-detail {
+    bottom: 0;
+    font-family: "Nunito", serif;
+    margin-left: 40px;
+    margin-bottom: 33px;
+    position: absolute;
+    width: 100%;
+}
+.article-3 .product .card .card-detail .product-name {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.article-3 .product .card .card-detail .product-quantity {
+    color: #828A90;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.article-3 .icon-wrapper img {
+    bottom: 0;
+    left: 28%;
+    position: absolute;
+    transform: translateX(-28%);
+    z-index: 0;
+}
+.article-3 .discover-all {
+    margin-top: 50px;
+}
+.article-3 .discover-all .discover-all-button {
+    border-radius: 50px;
+    border: 0px;
+    background-color: #FA5A0A;
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+    height: 65px;
+    transition: 0.17s;
+    width: 270px;
+}
+.article-3 .discover-all .discover-all-button:hover {
+    background-color: #FB8E58;
+}
+
+/* article-4 */
+.article-4 {
+    background-color: #FDF5F3;
+    padding-top: 113px;
+    padding-bottom: 129px;
+    position: relative;
+    width: 100%;
+}
+.article-4 .sale .slide-center {
+    display: flex;
+    justify-content: center;
+    max-width: 490px !important;
+    min-width: 490px !important;
+    width: 100%;
+}
+.article-4 .slogan {
+    font-family: "Nunito", serif;
+    font-size: 76px;
+    font-weight: bolder;
+    gap: 20px;
+    text-align: center;
+}
+.article-4 .slogan .slogan-main {
+    color: #FB8E58;
+    margin-bottom: 0px !important;
+}
+.article-4 .slogan .slogan-detail {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.article-4 .mascot, .article-4 .ellipse {
+    position: absolute;
+}
+.article-4 .mascot {
+    top: 72px;
+    right: 330px;
+}
+.article-4 .ellipse {
+    top: -118px;
+    right: 170px;
+}
+.article-4 .sale {
+    gap: 30px;
+    margin-top: 80px;
+    width: 100%;
+}
+.article-4 .sale .card {
+    background-color: #FFFFFF;
+    gap: 20px;
+    max-height: 560px;
+    min-height: 560px;
+    max-width: 490px;
+    min-width: 490px;
+    padding: 20px;
+}
+.article-4 .sale .card .card-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.article-4 .sale .card .card-detail {
+    font-family: "Nunito", serif;
+    max-height: 94px;
+}
+.article-4 .sale .card .card-detail .sale-product-name, .article-4 .sale .card .card-detail .sale-product-default-price, .article-4 .sale .card .card-detail .sale-product-reduced-price {
+    margin-bottom: 0px !important;
+}
+.article-4 .sale .card .card-detail .sale-product-name {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.article-4 .sale .card .card-detail .sale-product-default-price {
+    color: #82898F;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.article-4 .sale .card .card-detail .sale-product-reduced-price {
+    color: #FA5A0A;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* article-5 */
+.article-5 {
+    background-color: #FB8E58;
+    /* max-height: 1062px; */
+    position: relative;
+    /* padding-top: 268px; */
+    /* padding-bottom: 292px; */
+    width: 100%;
+}
+.article-5 .ellipse {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+.article-5 .statement .statement-detail {
+    color: #FFFFFF;
+    display: flex;
+    font-family: "Nunito", serif;
+    height: fit-content;
+    justify-content: center;
+    /* max-width: fit-content; */
+    padding: 20px;
+    position: relative;
+    width: 50%;
+}
+.article-5 .statement .statement-detail .statement-wrapper {
+    max-width: fit-content;
+    margin-left: 60px;
+}
+.article-5 .statement .statement-detail p {
+    margin-bottom: 0 !important;
+}
+.article-5 .statement .statement-detail .subject {
+    font-size: 76px;
+    font-weight: bolder;
+    line-height: 100px;
+    max-width: 660px;
+}
+.article-5 .statement .statement-detail .content {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 66px;
+    width: 536px;
+}
+.article-5 .statement .statement-detail .sign {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 31px;
+}
+.article-5 .statement .statement-detail .title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-inline: 10px;
+}
+.article-5 .statement .image {
+    width: 50%;
+}
+.article-5 .statement .image img {
+    /* height: 1891px; */
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+.article-5 .statement .statement-detail .navigation img {
+    bottom: 17px;
+    right: 50px;
+}
+
+/* article-6 */
+.article-6 {
+    background-color: #FDF5F3;
+    /* min-height: 1062px; */
+    padding: 200px 160px;
+    position: relative;
+    width: 100%;
+}
+.article-6 .showroom {
+    gap: 30px;
+}
+.article-6 .showroom .showroom-image {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.article-6 .showroom .showroom-adrress {
+    font-family: "Nunito", serif;
+    max-width: 604px;
+    min-width: 604px;
+}
+.article-6 .showroom .showroom-adrress .header p {
+    color: #FB8E58;
+    line-height: 100px;
+    font-size: 76px;
+    font-weight: bolder;
+    margin-bottom: 0 !important;
+}
+.article-6 .showroom .showroom-city {
+    margin-top: 33px;
+}
+.article-6 .showroom .showroom-city .nav {
+    border-bottom: 1px solid #818589;
+    justify-content: space-between;
+}
+.article-6 .showroom .showroom-city .nav-link {
+    color: #818589;
+    text-transform: uppercase;
+}
+.article-6 .showroom .showroom-city .nav-link.active {
+    color: #FA5A0A;
+    font-weight: bold;
+}
+.article-6 .showroom .showroom-city .tab-content {
+    /* border: 1px solid; */
+    display: flex;
+    margin-top: 31px;
+    max-height: 400px;
+    min-height: 400px;
+    overflow-y: auto;
+    width: 100%;
+}
+.article-6 .showroom .showroom-city .tab-content p {
+    font-size: 15px;
+    margin-bottom: 2px !important;
+}
+.article-6 .showroom .showroom-city .tab-content .showroom-name {
+    color: #FA5A0A;
+    font-size: 18px;
+    font-weight: 500;
+}
+.article-6 .showroom .showroom-city .tab-content .showroom-map .open-map {
+    color: #FB8E58;
+    cursor: pointer;
+}
+.article-6 .showroom .showroom-city .tab-content .content:nth-child(n+2) {
+    margin-top: 40px;
+}
+.article-6 .discover-all {
+    margin-top: 60px;
+}
+.article-6 .discover-all .discover-all-button {
+    border-radius: 50px;
+    border: 0px;
+    background-color: #FA5A0A;
+    color: #FFFFFF;
+    height: 65px;
+    transition: 0.17s;
+    width: 270px;
+}
+.article-6 .discover-all .discover-all-button:hover {
+    background-color: #FB8E58;
+}
+
+/* article-7 */
+.article-7 {
+    /* min-height: 1062px; */
+    padding-top: 113px;
+    padding-bottom: 129px;
+    position: relative;
+    width: 100%;
+}
+.article-7 .slogan {
+    font-family: "Nunito", serif;
+    font-size: 76px;
+    font-weight: bolder;
+    gap: 20px;
+    text-align: center;
+}
+.article-7 .slogan .slogan-main {
+    color: #FB8E58;
+    margin-bottom: 0px !important;
+}
+.article-7 .slogan .slogan-detail {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px !important;
+}
+.article-7 .news-event {
+    gap: 30px;
+    margin-top: 80px;
+    width: 100%;
+}
+.article-7 .news-event .slide-center {
+    display: flex;
+    justify-content: center;
+    max-width: 360px !important;
+    min-width: 360px !important;
+    width: 100%;
+}
+.article-7 .news-event .card {
+    background-color: #FFFFFF;
+    max-height: 360px !important;
+    min-height: 360px !important;
+    max-width: 360px !important;
+    min-width: 360px !important;
+    width: 100% !important;
+}
+.article-7 .news-event .card .card-img {
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.article-7 .news-event .card .card-detail {
+    font-family: "Nunito", serif;
+    max-height: 94px;
+    padding: 16px;
+}
+.article-7 .news-event .card .card-detail p:nth-child(n+2) {
+    margin-top: 8px;
+}
+.article-7 .news-event .card .card-detail .news-event-product-name, .article-7 .news-event .card .card-detail .news-event-product-datetime, .article-7 .news-event .card .card-detail .news-event-product-description {
+    margin-bottom: 0px !important;
+}
+.article-7 .news-event .card .card-detail .news-event-product-name {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.article-7 .news-event .card .card-detail .news-event-product-datetime {
+    color: #6A7682;
+    font-size: 12px;
+}
+.article-7 .news-event .card .card-detail .news-event-product-description {
+    color: #6A7682;
+    font-size: 16px;
+}
+.article-7 .discover-all {
+    margin-top: 60px;
+}
+.article-7 .discover-all .discover-all-button {
+    border-radius: 50px;
+    border: 0px;
+    background-color: #FA5A0A;
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+    height: 65px;
+    transition: 0.17s;
+    width: 270px;
+}
+.article-7 .discover-all .discover-all-button:hover {
+    background-color: #FB8E58;
+}
+
+
+/* article-8 */
+.article-8 {
+    background-color: #DB4F09;
+    background-image: url('../article 8/mask_group.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 187px;
+    padding-bottom: 183px;
+    position: relative;
+    width: 100%;
+}
+/* .article-8 .advise .advise-image {
+    max-width: 653px;
+} */
+.article-8 .advise .advise-detail .mascot-wrapper {
+    display: flex;
+    gap: 20px;
+    max-width: 844px;
+    position: relative;
+}
+.article-8 .advise .advise-detail .mascot-wrapper .mascot img {
+    left: -28px;
+    max-height: 181px;
+    min-width: 181px;
+    max-height: 181px;
+    min-width: 181px;
+    position: absolute;
+    top: -38px;
+    z-index: 2;
+}
+.article-8 .advise .advise-detail .mascot-wrapper .mascot img:nth-child(2) {
+    left: -108px;
+    max-height: 310px;
+    top: -100px;
+    z-index: 0;
+}
+.article-8 .advise .advise-detail {
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+}
+.article-8 .advise .advise-detail .slogan {
+    display: flex;
+    font-size: 56px;
+    font-weight: bolder;
+    justify-content: flex-end;
+    line-height: 70px;
+    width: 100%;
+}
+.article-8 .advise .advise-detail .slogan p {
+    text-align: center;
+}
+.article-8 .advise .advise-detail .form {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    max-width: 844px;
+    margin-top: 67px;
+}
+.article-8 .advise .advise-detail .form .wrapper {
+    max-width: 400px;
+    position: relative;
+    width: 100%;
+}
+.article-8 .advise .advise-detail .form .form-control {
+    background-color: transparent;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 500;
+    height: 80px;
+    max-width: 400px;
+    min-width: 400px;
+    padding: 10px 20px;
+    width: 100%;
+}
+.article-8 .advise .advise-detail .form .form-control::placeholder {
+    color: #FFFFFF;
+}
+.article-8 .advise .advise-detail .form .submit-button {
+    border: none;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: #FA5A0A;
+    height: 64px;
+    right: 8px;
+    max-width: 178px;
+    min-width: 178px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 8px;
+    transition: .17s;
+    width: 100%;
+}
+.article-8 .advise .advise-detail .form .submit-button:hover {
+    background-color: #f1f1f1;
+}
+
+/* footer */
+footer {
+    background-color: #05141F;
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+    padding-top: 118px;
+}
+.footer .wrapper {
+    margin-top: 33px;
+}
+.footer .right-wrapper {
+    display: flex;
+    gap: 80px;
+}
+.footer .right-wrapper ul {
+    margin-bottom: 0;
+}
+.footer .info p,
+.footer .about-us li,
+.footer .guide li,
+.footer .more li {
+    color: #B4B8BC;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.footer .info .company-name {
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bold;
+}
+.footer ul {
+    padding-left: 20px;
+}
+.footer .about-us .title,
+.footer .guide .title,
+.footer .more .title {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.footer .other-logo .group-1,
+.footer .other-logo {
+    align-items: center;
+    display: flex;
+    gap: 27px;
+    margin-top: 18px;
+}
+.footer .copyright {
+    align-items: center;
+    border-top: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    min-height: 87px;
+    margin-top: 31px;
+}
+.footer .copyright p {
+    margin-bottom: 0;
+}
+
+
