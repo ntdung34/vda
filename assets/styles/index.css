@@ -3,6 +3,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+
+
 html, body {
     padding: 0;
 }
@@ -218,7 +220,7 @@ nav.navbar .showroom {
 .article-2 .sale {
     gap: 30px;
     margin-top: 80px;
-    padding: 0;
+    padding: 0 80px;
     width: 100%;
 }
 .article-2 .sale .card {
@@ -285,42 +287,41 @@ nav.navbar .showroom {
 .article-3 .product {
     gap: 30px;
     margin-top: 70px;
-    max-width: 1860px !important;
-    overflow: hidden;
+    padding: 0 80px;
     position: relative;
     width: 100%;
-    white-space: no-wrap;
     z-index: 2;
 }
 .article-3 .product .card {
     background-color: #FFFFFF;
     gap: 30px;
-    max-height: 400px;
+    /* max-height: 400px;
     min-height: 400px;
     max-width: 490px;
-    min-width: 490px;
+    min-width: 490px; */
     position: relative;
 }
-.article-3 .product .card .card-img {
-    border: 1px solid #f1f1f1;
+/* .article-3 .product .card .card-img {
     border: none;
     height: 100%;
-    min-height: 400px;
-    min-width: 490px;
+    max-height: 200px;
+    max-width: 290px;
     width: 100%;
-}
+} */
 .article-3 .product .card .card-img img {
     height: 100%;
-    max-height: 400px;
-    min-height: 400px;
-    min-width: 490px;
+    max-width: 390px;
+    min-width: 390px;
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: fill;
     width: 100%;
 }
 .article-3 .product .card .card-detail {
     bottom: 0;
     font-family: "Nunito", serif;
-    margin-left: 40px;
-    margin-bottom: 33px;
+    padding-left: 40px;
+    padding-bottom: 33px;
     position: absolute;
     width: 100%;
 }
@@ -331,7 +332,7 @@ nav.navbar .showroom {
     margin-bottom: 0px !important;
 }
 .article-3 .product .card .card-detail .product-quantity {
-    color: #828A90;
+    color: #B4B8BC;
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 0px !important;
@@ -368,13 +369,6 @@ nav.navbar .showroom {
     position: relative;
     width: 100%;
 }
-.article-4 .sale .slide-center {
-    display: flex;
-    justify-content: center;
-    max-width: 490px !important;
-    min-width: 490px !important;
-    width: 100%;
-}
 .article-4 .slogan {
     font-family: "Nunito", serif;
     font-size: 76px;
@@ -405,23 +399,23 @@ nav.navbar .showroom {
 .article-4 .sale {
     gap: 30px;
     margin-top: 80px;
+    padding: 0 80px;
     width: 100%;
 }
 .article-4 .sale .card {
     background-color: #FFFFFF;
     gap: 20px;
-    max-width: 360px;
     padding: 20px;
 }
 .article-4 .sale .card .card-img {
     display: flex;
     justify-content: center;
-    max-width: 320px !important;
+    /* max-width: 320px !important; */
     width: 100%;
 }
-.article-4 .sale .card .card-img img {
+/* .article-4 .sale .card .card-img img {
     max-width: 320px !important;
-}
+} */
 .article-4 .sale .card .card-detail {
     font-family: "Nunito", serif;
     max-height: 94px;
@@ -629,26 +623,28 @@ nav.navbar .showroom {
 .article-7 .news-event {
     gap: 30px;
     margin-top: 80px;
+    padding: 0 80px;
     width: 100%;
 }
 .article-7 .news-event .card {
     background-color: #FFFFFF;
-    max-height: 360px !important;
-    min-height: 360px !important;
-    max-width: 360px !important;
-    min-width: 360px !important;
-    width: 100% !important;
+    gap: 20px;
+    max-width: 320px !important;
+    padding: 20px;
 }
 .article-7 .news-event .card .card-img {
-    border-bottom: 1px solid #f1f1f1;
     display: flex;
     justify-content: center;
+    max-width: 320px !important;
     width: 100%;
+}
+.article-7 .news-event .card .card-img img {
+    border: 1px solid #f1f1f1;
+    max-width: 282px !important;
 }
 .article-7 .news-event .card .card-detail {
     font-family: "Nunito", serif;
-    max-height: 94px;
-    padding: 16px;
+    /* max-height: 94px; */
 }
 .article-7 .news-event .card .card-detail p:nth-child(n+2) {
     margin-top: 8px;

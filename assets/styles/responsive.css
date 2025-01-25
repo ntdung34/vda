@@ -1,8 +1,25 @@
 
 
 
+/* 1730px */
+@media (max-width: 1699.98px) {
+
+    /* article-4 */
+    .article-4 .card .card-img img {
+        width: 357px;
+    }
+}
+
 /* 1450px */
 @media (max-width: 1449.98px) {
+
+    /* article-4 */
+    .article-4 .sale {
+        margin-top: 30px;
+    }
+    .article-4 .card .card-img img {
+        width: 320px;
+    }
 
     /* article-6 */
     .article-6 {
@@ -73,7 +90,7 @@
 
     /* article-6 */
     .article-6 {
-        padding: 70px 30px;
+        padding: 60px 30px;
     }
     .article-6 .showroom .showroom-image img {
         height: 200px;
@@ -81,7 +98,7 @@
 
     /* article-7 */
     .article-7 {
-        padding: 70px 30px;
+        padding: 60px 30px;
     }
 }
 
@@ -98,7 +115,7 @@
 
     /* article-4 */
     .article-4 {
-        padding: 70px 30px;
+        padding: 60px 30px;
     }
     .article-3 .slogan,
     .article-4 .slogan {
@@ -127,9 +144,11 @@
     }
     .article-8 .advise {
         /* border: 1px solid white; */
-        backdrop-filter: blur(12px);
-        justify-content: center !important;
-        padding: 70px 30px;
+        /* backdrop-filter: blur(12px); */
+        justify-content: flex-end !important;
+        margin-left: auto;
+        margin-right: 0;
+        padding: 60px 30px;
     }
     .article-8 .advise .advise-detail .form {
         margin-top: 37px;
@@ -149,7 +168,7 @@
 
     /* article-5 */
     .article-5 .statement {
-        padding: 70px 30px;
+        padding: 60px 30px;
     }
     .article-5 .statement .statement-detail {
         padding: 0;
@@ -202,7 +221,7 @@
     }
 
     /* article-1 */
-    .article-1 .slogan {
+    /* .article-1 .slogan {
         font-size: 70px;
         line-height: 90px;
     }
@@ -216,58 +235,7 @@
     }
     .article-1 .electric {
         bottom: -110%;
-    }
-
-    /* article-2 */
-    .article-2 .slogan {
-        font-size: 45px;
-    }
-
-    .article-3 .slogan {
-        font-size: 40px;
-    }
-    .article-3 .slogan .slogan-main {
-        gap: 10px;
-    }
-    .article-3 .slogan .slogan-main img {
-        height: 120px;
-    }
-
-    /* article-4 */
-    .article-4 .slogan {
-        font-size: 40px;
-    }
-    .article-4 .slogan .slogan-main img {
-        height: 120px;
-    }
-
-    /* article-8 */
-    .article-8 .advise .advise-detail .mascot-wrapper .mascot {
-        display: none;
-    }
-    .article-8 .advise .advise-detail .form {
-        align-items: center;
-        flex-direction: column;
-    }
-    .article-8 .advise .advise-detail .slogan {
-        justify-content: center;
-    }
-
-    /* footer */
-    .footer .wrapper {
-        flex-direction: column;
-        gap: 30px;
-    }
-    .footer .right-wrapper {
-        /* gap: unset; */
-        justify-content: space-between;
-    }
-}
-
-/* 768px */
-@media (max-width: 767.98px) {
-
-    /* article-1 */
+    } */
     .article-1 {
         padding-top: 60px;
     }
@@ -301,8 +269,22 @@
     }
 
     /* article-2 */
+    .article-2 .slogan {
+        font-size: 45px;
+    }
+    .article-2 .sale {
+        padding: 0;
+    }
+    .article-2 .sale .card {
+        min-width: auto;
+    }
+    .article-2 .sale .card .card-img img {
+        height: 320px;
+    }
+
+    /* article-2 */
     .article-2 {
-        padding: 70px 30px;
+        padding: 60px 30px;
     }
     .article-2 .sale {
         margin-top: 50px;
@@ -310,18 +292,18 @@
 
     /* article-3 */
     .article-3 {
-        padding: 70px 30px;
+        padding: 60px 30px;
     }
     .article-3 .slogan .slogan-main {
         align-items: center;
         display: flex;
         flex-direction: column-reverse;
+        font-size: 28px;
+        gap: 10px;
     }
+    .article-3 .slogan .slogan-main img,
     .article-3 .slogan .slogan-main img {
-        max-height: 80px;
-        min-height: 80px;
-        max-width: 80px;
-        min-width: 80px;
+        height: 70px;
     }
     .article-3 .discover-all .discover-all-button {
         width: 200px;
@@ -329,18 +311,19 @@
 
     /* article-4 */
     .article-4 {
-        padding: 70px 30px;
+        padding: 60px 30px;
+    }
+    .article-4 .slogan .slogan-main img {
+        height: 80px;
     }
     .article-4 .slogan .slogan-main {
         align-items: center;
         display: flex;
         flex-direction: column-reverse;
+        font-size: 28px;
     }
-    .article-4 .slogan .slogan-main img {
-        max-height: 80px;
-        min-height: 80px;
-        max-width: 80px;
-        min-width: 80px;
+    .article-4 .sale .card {
+        max-width: 354px;
     }
 
     /* article-5 */
@@ -351,12 +334,15 @@
         font-size: 37px;
         line-height: 50px;
     }
+    .article-5 .statement .statement-detail .content {
+        margin-top: 40px;
+    }
 
     /* article-6 */
-    .article-6 .showroom .showroom-adrress {
+    /* .article-6 .showroom .showroom-adrress {
         max-width: 500px;
         min-width: 500px;
-    }
+    } */
     .article-6 .showroom .showroom-adrress .header p {
         font-size: 30px;
     }
@@ -369,17 +355,43 @@
 
     /* article-7 */
     .article-7 .slogan {
-        font-size: 40px;
+        font-size: 30px;
     }
     .article-7 .discover-all .discover-all-button {
         max-width: 200px;
+    }
+    .article-7 .news-event {
+        margin-top: 30px;
+        padding: 0;
+    }
+    .article-7 .news-event .card {
+        max-width: 354px !important;
+    }
+    .article-7 .news-event .card .card-img img {
+        max-width: none !important;
     }
 
     /* article-8 */
     .article-8 {
         padding: 0px;
+        padding: 60px 30px;
+    }
+    .article-8 .advise {
+        justify-content: flex-end !important;
+        margin-left: auto;
+        margin-right: 0;
+        padding: 0;
+    }
+    .article-8 .advise .advise-detail .mascot-wrapper .mascot {
+        display: none;
+    }
+    .article-8 .advise .advise-detail .form {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
     }
     .article-8 .advise .advise-detail .slogan {
+        justify-content: center;
         font-size: 40px;
         line-height: 53px;
     }
@@ -397,12 +409,44 @@
     footer {
         padding-top: 77px;
     }
+    .footer .wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer .right-wrapper {
+        /* gap: unset; */
+        justify-content: space-between;
+    }
+}
+
+/* 768px */
+@media (max-width: 767.98px) {
+
+    /* article-8 */
+    .article-8 .advise {
+        backdrop-filter: blur(12px);
+        justify-content: center !important;
+        padding: 12px;
+        -webkit-backdrop-filter: blur(12px);
+    }
+    .article-8 .advise .advise-detail .slogan {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .article-8 .advise .advise-detail .form .form-control {
+        max-width: auto;
+        min-width: auto;
+        width: 100%;
+    }
 }
 
 /* 576px */
 @media (max-width: 575.98px) {
 
     /* article-2 */
+    .article-2 .sale {
+        padding: 0;
+    }
     .article-2 .slogan {
         font-size: 30px;
     }
@@ -412,30 +456,34 @@
 
     /* article-3 */
     .article-3 .slogan {
-        font-size: 23px;
+        font-size: 28px;
     }
     .article-3 .product .card,
     .article-3 .product .card .card-img,
     .article-3 .product .card .card-img img {
         max-height: 250px;
         min-height: 250px;
-        min-width: 390px;
-        max-width: 390px;
+        min-width: 360px;
+        max-width: 360px;
     }
     .article-3 .product .card .card-detail {
-        margin-bottom: 10px;
-        margin-left: 30px;
+        padding-bottom: 20px;
+        padding-left: 20px;
     }
     .article-3 .product .card .card-detail .product-name {
         font-size: 20px;
     }
     .article-3 .product .card .card-detail .product-quantity {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     /* article-4 */
     .article-4 .slogan {
-        font-size: 27px;
+        font-size: 28px;
+    }
+    .article-4 .sale .card {
+        max-width: 354px;
+        min-width: 354px;
     }
 
     /* article-5 */
@@ -450,7 +498,7 @@
         min-width: 300px;
     }
     .article-6 .showroom .showroom-adrress .header p {
-        font-size: 23px;
+        font-size: 27px;
     }
 
     /* srticle-7 */
@@ -478,19 +526,6 @@
     .footer .other-logo {
         align-items: flex-start;
         flex-direction: column;
-    }
-}
-
-/* 500px */
-@media (max-width: 499.98px) {
-    .article-8 .advise .advise-detail .slogan {
-        font-size: 30px;
-        line-height: 45px;
-    }
-    .article-8 .advise .advise-detail .form .form-control {
-        max-width: auto;
-        min-width: auto;
-        width: 100%;
     }
 }
 
