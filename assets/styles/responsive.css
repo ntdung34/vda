@@ -304,11 +304,11 @@
         align-items: center;
         display: flex;
         flex-direction: column-reverse;
-        font-size: 28px;
+        font-size: 45px;
         gap: 10px;
     }
     .android .article-3 .slogan .slogan-main {
-        font-size: 24px;
+        font-size: 41px;
     }
     .article-3 .slogan .slogan-main img {
         height: 70px;
@@ -318,6 +318,16 @@
     }
     .article-3 .discover-all .discover-all-button {
         width: 200px;
+    }
+    .article-3 .product .card .card-detail {
+        padding-left: 10px;
+        padding-bottom: 8px;
+    }
+    .article-3 .product .card .card-detail .product-name {
+        font-size: 20px;
+    }
+    .article-3 .product .card .card-detail .product-quantity {
+        font-size: 17px;
     }
 
     /* article-4 */
@@ -337,7 +347,7 @@
         align-items: center;
         display: flex;
         flex-direction: column-reverse;
-        font-size: 28px;
+        font-size: 45px;
     }
     .article-4 .sale .card {
         max-width: 354px;
@@ -379,7 +389,7 @@
 
     /* article-7 */
     .article-7 .slogan {
-        font-size: 30px;
+        font-size: 45px;
     }
     .article-7 .discover-all .discover-all-button {
         max-width: 200px;
@@ -446,6 +456,24 @@
 /* 768px */
 @media (max-width: 767.98px) {
 
+    /* article-3 */
+    .article-3 .slogan .slogan-main {
+        font-size: 28px;
+    }
+    .android .article-3 .slogan .slogan-main {
+        font-size: 24px;
+    }
+
+    /* article-4 */
+    .article-4 .slogan .slogan-main {
+        font-size: 28px;
+    }
+
+    /* article-7 */
+    .article-7 .slogan {
+        font-size: 30px;
+    }
+
     /* article-8 */
     .article-8 .advise {
         backdrop-filter: blur(12px);
@@ -491,7 +519,8 @@
     }
     .article-3 .product .card,
     .article-3 .product .card .card-img,
-    .article-3 .product .card .card-img img {
+    .article-3 .product .card .card-img img
+    {
         max-height: 250px;
         min-height: 250px;
         min-width: 360px;
@@ -501,16 +530,6 @@
     .android .article-3 .product .card .card-img,
     .android .article-3 .product .card .card-img img {
         min-width: 300px;
-    }
-    .article-3 .product .card .card-detail {
-        padding-bottom: 20px;
-        padding-left: 20px;
-    }
-    .article-3 .product .card .card-detail .product-name {
-        font-size: 20px;
-    }
-    .article-3 .product .card .card-detail .product-quantity {
-        font-size: 18px;
     }
 
     /* article-4 */
