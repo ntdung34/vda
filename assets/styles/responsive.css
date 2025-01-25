@@ -272,6 +272,9 @@
     .article-2 .slogan {
         font-size: 45px;
     }
+    .article-2 .slogan .slogan-detail {
+        font-size: 16px;
+    }
     .article-2 .sale {
         padding: 0;
     }
@@ -280,6 +283,9 @@
     }
     .article-2 .sale .card .card-img img {
         height: 320px;
+    }
+    .android .article-2 .sale .card .card-img img {
+        height: 255px;
     }
 
     /* article-2 */
@@ -301,9 +307,14 @@
         font-size: 28px;
         gap: 10px;
     }
-    .article-3 .slogan .slogan-main img,
+    .android .article-3 .slogan .slogan-main {
+        font-size: 24px;
+    }
     .article-3 .slogan .slogan-main img {
         height: 70px;
+    }
+    .android .article-3 .slogan .slogan-main img {
+        height: 60px;
     }
     .article-3 .discover-all .discover-all-button {
         width: 200px;
@@ -313,9 +324,15 @@
     .article-4 {
         padding: 60px 30px;
     }
+    .android .article-4 .slogan .slogan-main {
+        font-size: 24px;
+    }
     .article-4 .slogan .slogan-main img {
         height: 80px;
     }
+    /* .android .article-4 .slogan .slogan-main img {
+        height: 60px;
+    } */
     .article-4 .slogan .slogan-main {
         align-items: center;
         display: flex;
@@ -334,7 +351,14 @@
         font-size: 37px;
         line-height: 50px;
     }
+    .android .article-5 .statement .statement-detail .subject {
+        font-size: 33px;
+        line-height: 47px;
+    }
     .article-5 .statement .statement-detail .content {
+        margin-top: 40px;
+    }
+    .android .article-5 .statement .statement-detail .content {
         margin-top: 40px;
     }
 
@@ -433,6 +457,10 @@
         font-size: 27px;
         line-height: 45px;
     }
+    .android .article-8 .advise .advise-detail .slogan {
+        font-size: 23px;
+        line-height: 40px;
+    }
     .article-8 .advise .advise-detail .form .form-control {
         max-width: auto;
         min-width: auto;
@@ -448,7 +476,10 @@
         padding: 0;
     }
     .article-2 .slogan {
-        font-size: 30px;
+        font-size: 28px;
+    }
+    .android.article-2 .slogan {
+        font-size: 26px;
     }
     .article-2 .slogan .detail {
         font-size: 15px;
@@ -465,6 +496,11 @@
         min-height: 250px;
         min-width: 360px;
         max-width: 360px;
+    }
+    .android .article-3 .product .card,
+    .android .article-3 .product .card .card-img,
+    .android .article-3 .product .card .card-img img {
+        min-width: 300px;
     }
     .article-3 .product .card .card-detail {
         padding-bottom: 20px;
@@ -485,6 +521,13 @@
         max-width: 354px;
         min-width: 354px;
     }
+    .android .article-4 .sale .card {
+        max-width: 300px;
+        min-width: 300px;
+    }
+    .android .article-4 .card .card-img img {
+        width: 260px;
+    }
 
     /* article-5 */
     .article-5 .statement .statement-detail .content {
@@ -499,6 +542,13 @@
     }
     .article-6 .showroom .showroom-adrress .header p {
         font-size: 27px;
+        line-height: 50px;
+    }
+    .android .article-6 .showroom .showroom-adrress .header p {
+        font-size: 23px;
+    }
+    .article-6 .showroom .showroom-city .nav {
+        font-size: 12px;
     }
 
     /* srticle-7 */
