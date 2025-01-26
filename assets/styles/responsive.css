@@ -318,14 +318,14 @@
         padding: 0;
     }
     .article-2 .sale .card {
-        max-width: 330px;
-        min-width: 330px;
-        padding: 12px 20px;
+        max-width: 290px;
+        min-width: 290px;
+        padding: 20px 20px 7px 20px;
     }
     .article-2 .sale .card .card-img {
         /* background-size: cover; */
         height: 247px;
-        width: 287px;
+        /* width: 287px; */
     }
     .android .article-2 .sale .card {
         max-width: 320px;
@@ -379,11 +379,11 @@
         padding-bottom: 10px;
     }
     .article-3 .product .card .card-detail .product-name {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 19px;
     }
     .article-3 .product .card .card-detail .product-quantity {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     /* article-4 */
@@ -406,12 +406,12 @@
         gap: 20px;
     }
     .article-4 .sale {
-        margin-top: 20px;
+        margin-top: 37px;
     }
     .article-4 .sale .card {
         max-width: 330px !important;
         min-width: 330px !important;
-        padding: 15px 20px;
+        padding: 20px 20px 7px 20px;
     }
     .android .article-4 .sale .card {
         max-width: 320px !important;
@@ -448,7 +448,7 @@
 
     /* article-6 */
     .article-6 {
-        padding: 40px 30px;
+        padding: 40px 30px 40px 30px;
     }
     .article-6 .showroom .showroom-adrress {
         max-width: 690px;
@@ -460,11 +460,9 @@
     .article-6 .showroom .showroom-city {
         margin-top: 23px;
     }
-    .article-6 .showroom .showroom-city .tab-content .showroom-name {
-        font-size: 20px;
-    }
-    .article-6 .showroom .showroom-city .tab-content p {
-        font-size: 17px;
+    .article-6 .showroom .showroom-city .tab-content {
+        max-height: 480px;
+        min-height: 480px;
     }
     .article-6 .discover-all {
         margin-top: 37px;
@@ -548,7 +546,7 @@
 /* 768px */
 @media (max-width: 767.98px) {
 
-    /* article-2 */
+    /* article-1 */
     .article-1 .mascot {
         display: none;
     }
@@ -560,9 +558,16 @@
     }
 
     /* article-2 */
-    .article-2 .sale .card .card-img {
-        height: 287px;
+    .article-2 .slogan .slogan-detail {
+        font-size: 12.2px;
+        text-align: left;
     }
+    .article-2 .sale .card {
+        padding: 17px 20px 20px 20px;
+    }
+    /* .article-2 .sale .card .card-img {
+        height: 287px;
+    } */
 
     /* article-3 */
     .article-3 .slogan .slogan-main {
@@ -577,6 +582,11 @@
         font-size: 28px;
     }
 
+    /* article-6 */
+    .article-6 .discover-all {
+        margin-top: 25px;
+    }
+
     /* article-7 */
     .article-7 .slogan {
         font-size: 30px;
@@ -584,10 +594,11 @@
 
     /* article-8 */
     .article-8 .advise {
-        backdrop-filter: blur(12px);
         justify-content: center !important;
-        padding: 12px;
-        -webkit-backdrop-filter: blur(12px);
+        /* padding: 12px; */
+    }
+    .article-8 .advise .advise-detail .mascot-wrapper {
+        max-width: none;
     }
     .article-8 .advise .advise-detail .slogan {
         font-size: 27px;
@@ -597,9 +608,11 @@
         font-size: 23px;
         line-height: 40px;
     }
+    .article-8 .advise .advise-detail .form {
+        max-width: none;
+    }
     .article-8 .advise .advise-detail .form .form-control {
-        max-width: auto;
-        min-width: auto;
+        min-width: 350px;
         width: 100%;
     }
 }
@@ -611,13 +624,48 @@
         padding: 60px 30px 0 30px;
         justify-content: flex-start;
     }
+    .article-1 .slogan {
+        font-size: 44px;
+        line-height: 60px;
+    }
+    .article-1 .discover-more .discover-more-button {
+        font-size: 15px;
+    }
+    .article-1 .mascot {
+        display: block;
+        left: 33%;
+        top: 240%;
+    }
+    .article-1 .mascot img {
+        /* height: 180px; */
+        height: 160px;
+    }
+    .article-1 .ellipse {
+        display: block;
+        left: 25%;
+        right: 0;
+        top: 200%;
+    }
+    .article-1 .ellipse img {
+        height: 277px;
+    }
+    .article-1 .electric {
+        display: block;
+        right: -10%;
+        bottom: -160%;
+    }
+    .article-1 .electric img {
+        height: 150px;
+    }
 
     /* article-2 */
     .article-2 .sale {
         padding: 0;
     }
     .article-2 .slogan {
-        font-size: 28px;
+        font-size: 31px;
+        gap: 5px;
+        text-align: left;
     }
     .android.article-2 .slogan {
         font-size: 26px;
@@ -625,24 +673,51 @@
     .article-2 .slogan .detail {
         font-size: 15px;
     }
+    .article-2 .sale .card {
+        max-width: 330px;
+        min-width: 330px;
+    }
+    .article-2 .sale .card .card-img {
+        height: 290px;
+    }
+    .article-2 .sale {
+        margin-top: 57px;
+    }
 
     /* article-3 */
     .article-3 .slogan {
         font-size: 28px;
+        margin-top: 30px;
     }
     .article-3 .slogan .slogan-main {
         flex-direction: column-reverse;
         gap: 10px;
     }
+    .article-3 .product {
+        margin-top: 60px;
+    }
     .article-3 .product .card {
-        max-height: 250px;
-        min-height: 250px;
-        min-width: 350px;
-        max-width: 350px;
+        max-height: 265px !important;
+        min-height: 265px !important;
+        /* min-width: 350px;
+        max-width: 350px; */
     }
     .android .article-3 .product .card,
     .android .article-3 .product .card .card-img {
         min-width: 300px;
+    }
+    .article-3 .product .card .card-detail {
+        line-height: 17px;
+    }
+    .article-3 .product .card .card-detail .product-name {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .article-3 .product .card .card-detail .product-quantity {
+        font-size: 14px;
+    }
+    .article-3 .discover-all {
+        margin-top: 105px;
     }
 
     /* article-4 */
@@ -651,7 +726,7 @@
     }
     .article-4 .slogan .slogan-main {
         flex-direction: column-reverse;
-        gap: 0;
+        gap: 10px;
     }
     .article-4 .sale .card {
         max-width: 354px;
@@ -663,13 +738,28 @@
     }
 
     /* article-5 */
+    .article-5 .statement {
+        padding: 40px;
+    }
     .article-5 .statement .statement-detail .subject {
-        font-size: 33px;
-        line-height: 45px;
+        font-size: 30px;
+        line-height: 40px;
     }
     .article-5 .statement .statement-detail .content {
-        margin-top: 55px;
+        font-size: 16px;
+        margin-top: 47px;
         width: auto;
+    }
+    .article-5 .statement .statement-detail .sign {
+        font-size: 21px;
+        line-height: 27px;
+        margin-top: 45px;
+    }
+    .article-5 .statement .statement-detail .title {
+        font-size: 16px;
+    }
+    .article-5 .statement .statement-detail .arrow {
+        margin-top: 55px;
     }
 
     /* article-6 */
@@ -678,14 +768,22 @@
         min-width: 300px;
     }
     .article-6 .showroom .showroom-adrress .header p {
-        font-size: 24px;
-        line-height: 50px;
+        font-size: 35px;
+        line-height: 47px;
     }
     .android .article-6 .showroom .showroom-adrress .header p {
         font-size: 23px;
     }
     .article-6 .showroom .showroom-city .nav {
-        font-size: 12px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .article-6 .showroom .showroom-city .tab-content {
+        max-height: 430px;
+        min-height: 430px;
+    }
+    .article-6 .showroom .showroom-city .tab-content .content:nth-child(n+2) {
+        margin-top: 30px;
     }
 
     /* srticle-7 */
@@ -693,8 +791,31 @@
         font-size: 30px;
     }
     .article-7 .news-event {
-        margin-top: 30px;
+        margin-top: 65px;
         padding: 0;
+    }
+    .article-7 .discover-all {
+        margin-top: 105px;
+    }
+
+    /* article-8 */
+    .article-8 .advise .advise-detail .slogan {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .article-8 .advise .advise-detail .slogan p {
+        margin: 0;
+    }
+    .article-8 .advise .advise-detail .form {
+        margin-top: 50px;
+    }
+    .article-8 .advise .advise-detail .form .form-control {
+        height: 50px;
+    }
+    .article-8 .advise .advise-detail .form .submit-button {
+        font-size: 12px;
+        height: 35px;
+        padding: 9px;
     }
 
     /* footer */
