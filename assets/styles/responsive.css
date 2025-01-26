@@ -1,24 +1,71 @@
 
 
 
-/* 1730px */
+/* 1700px */
 @media (max-width: 1699.98px) {
 
-    /* article-4 */
-    .article-4 .card .card-img img {
-        width: 357px;
+    /* article-3 */
+    .article-3 .product .card {
+        max-height: 310px !important;
+        min-height: 310px !important;
+        max-width: 400px !important;
+        min-width: 400px !important;
+    }
+}
+
+/* 1570px */
+@media (max-width: 1569.98px) {
+
+    /* article-2 */
+    .article-2 .mascot {
+        right: 9%;
+    }
+    .article-2 .ellipse {
+        right: 0;
+    }
+}
+
+/* 1500px */
+@media (max-width: 1499.98px) {
+
+    /* article-2 */
+    .article-2 .mascot {
+        right: 3%;
+    }
+    .article-2 .ellipse {
+        right: -8%;
     }
 }
 
 /* 1450px */
 @media (max-width: 1449.98px) {
 
+    /* article-2 */
+    .article-2 .mascot {
+        display: none;
+    }
+    .article-2 .ellipse {
+        display: none;
+    }
+
+    /* article-3 */
+    .article-3 .product .card {
+        max-height: 250px !important;
+        min-height: 250px !important;
+        max-width: 350px !important;
+        min-width: 350px !important;
+    }
+
     /* article-4 */
     .article-4 .sale {
         margin-top: 30px;
     }
-    .article-4 .card .card-img img {
-        width: 320px;
+    .article-4 .sale .card {
+        max-width: 370px !important;
+        min-width: 370px !important;
+    }
+    .article-4 .sale .card .card-img  {
+        height: 282px;
     }
 
     /* article-6 */
@@ -106,11 +153,13 @@
 @media (max-width: 1199.98px) {
 
     /* article-2 */
-    .article-2 .mascot {
-        display: none;
+    .article-2 .sale .card {
+        min-height: 250px !important;
     }
-    .article-2 .ellipse {
-        display: none;
+
+    /* article-3 */
+    .article-3 {
+        padding: 60px 30px;
     }
 
     /* article-4 */
@@ -221,21 +270,6 @@
     }
 
     /* article-1 */
-    /* .article-1 .slogan {
-        font-size: 70px;
-        line-height: 90px;
-    }
-    .article-1 .mascot {
-        left: 52%;
-        top: 180%;
-    }
-    .article-1 .ellipse {
-        bottom: -260%;
-        left: 45%;
-    }
-    .article-1 .electric {
-        bottom: -110%;
-    } */
     .article-1 {
         padding-top: 60px;
     }
@@ -279,16 +313,17 @@
         padding: 0;
     }
     .article-2 .sale .card {
-        min-width: auto;
+        min-width: 330px;
+    }
+    .android .article-2 .sale .card {
+        min-width: 320px;
     }
     .article-2 .sale .card .card-img img {
-        height: 320px;
+        height: 310px;
     }
     .android .article-2 .sale .card .card-img img {
-        height: 255px;
+        height: 307px;
     }
-
-    /* article-2 */
     .article-2 {
         padding: 60px 30px;
     }
@@ -319,15 +354,24 @@
     .article-3 .discover-all .discover-all-button {
         width: 200px;
     }
+    .article-3 .product .card {
+        max-width: 330px !important;
+        min-width: 330px !important;
+    }
+    .android .article-3 .product .card {
+        max-width: 320px !important;
+        min-width: 320px !important;
+    }
     .article-3 .product .card .card-detail {
-        padding-left: 10px;
-        padding-bottom: 8px;
+        padding-left: 17px;
+        padding-bottom: 10px;
     }
     .article-3 .product .card .card-detail .product-name {
         font-size: 20px;
+        line-height: 20px;
     }
     .article-3 .product .card .card-detail .product-quantity {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     /* article-4 */
@@ -350,7 +394,15 @@
         font-size: 45px;
     }
     .article-4 .sale .card {
-        max-width: 354px;
+        max-width: 330px !important;
+        min-width: 330px !important;
+    }
+    .android .article-4 .sale .card {
+        max-width: 320px !important;
+        min-width: 320px !important;
+    }
+    .article-4 .sale .card .card-img {
+        height: 247px;
     }
 
     /* article-5 */
@@ -383,6 +435,9 @@
     .article-6 .showroom .showroom-city {
         margin-top: 23px;
     }
+    .article-6 .discover-all {
+        margin-top: 37px;
+    }
     .article-6 .discover-all .discover-all-button {
         max-width: 200px;
     }
@@ -399,10 +454,13 @@
         padding: 0;
     }
     .article-7 .news-event .card {
-        max-width: 354px !important;
+        max-width: 330px !important;
     }
-    .article-7 .news-event .card .card-img img {
-        max-width: none !important;
+    .article-7 .news-event .card .card-img {
+        height: 170px;
+    }
+    .article-7 .discover-all {
+        margin-top: 37px;
     }
 
     /* article-8 */
@@ -499,6 +557,10 @@
 /* 576px */
 @media (max-width: 575.98px) {
 
+    .article-1 {
+        padding: 60px 30px 0 30px;
+    }
+
     /* article-2 */
     .article-2 .sale {
         padding: 0;
@@ -517,14 +579,11 @@
     .article-3 .slogan {
         font-size: 28px;
     }
-    .article-3 .product .card,
-    .article-3 .product .card .card-img,
-    .article-3 .product .card .card-img img
-    {
+    .article-3 .product .card {
         max-height: 250px;
         min-height: 250px;
-        min-width: 360px;
-        max-width: 360px;
+        min-width: 350px;
+        max-width: 350px;
     }
     .android .article-3 .product .card,
     .android .article-3 .product .card .card-img,

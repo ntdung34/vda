@@ -106,7 +106,21 @@ nav.navbar .showroom {
     gap: 8px;
 }
 
+@media (min-width:1500px) {
+    .container {
+        max-width: 1680px;
+        padding: 0 80px;
+    }
+}
+
 /* main */
+article:not(.article-1) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
 
 /* article-1 */
 .article-1 {
@@ -157,19 +171,19 @@ nav.navbar .showroom {
     position: absolute;
 }
 .article-1 .mascot {
-    left: 50%;
+    left: 47%;
     top: 0;
     transform: translateX(-50%);
     z-index: 2;
 }
 .article-1 .ellipse {
-    left: 50%;
+    left: 45%;
     bottom: -35%;
     transform: translateX(-50%);
     z-index: 0;
 }
 .article-1 .electric {
-    left: 47%;
+    left: 45%;
     bottom: 210px;
     transform: translateX(-50%);
     z-index: 4;
@@ -208,34 +222,45 @@ nav.navbar .showroom {
     position: absolute;
 }
 .article-2 .mascot {
-    bottom: 60px;
-    right: 0px;
+    bottom: 0;
+    right: 13%;
     z-index: 2;
 }
 .article-2 .ellipse {
-    bottom: -105px;
-    right: -162px;
+    bottom: -80%;
+    right: 3%;
     z-index: 0;
 }
 .article-2 .sale {
     gap: 30px;
     margin-top: 80px;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     width: 100%;
 }
 .article-2 .sale .card {
     background-color: #FFFFFF;
     gap: 20px;
-    max-height: 490px;
-    min-height: 490px;
-    max-width: 360px;
     min-width: 360px;
     padding: 20px;
 }
 .article-2 .sale .card .card-img {
-    border: 1px solid #f1f1f1;
-    display: flex;
-    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 100%;
+}
+.article-2 .sale .card .card-img.img-1 {
+    background-image: url('../article 2/sale_1.png');
+}
+.article-2 .sale .card .card-img.img-2 {
+    background-image: url('../article 2/sale_2.png');
+}
+.article-2 .sale .card .card-img.img-3 {
+    background-image: url('../article 2/sale_3.png');
+}
+.article-2 .sale .card .card-img.img-4 {
+    background-image: url('../article 2/sale_4.png');
 }
 .article-2 .sale .card .card-detail {
     font-family: "Nunito", serif;
@@ -287,7 +312,7 @@ nav.navbar .showroom {
 .article-3 .product {
     gap: 30px;
     margin-top: 70px;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     position: relative;
     width: 100%;
     z-index: 2;
@@ -295,26 +320,35 @@ nav.navbar .showroom {
 .article-3 .product .card {
     background-color: #05141f;
     gap: 30px;
-    /* max-height: 400px;
-    min-height: 400px; */
+    max-height: 400px;
+    min-height: 400px;
     max-width: 490px;
     min-width: 490px;
+    overflow: hidden;
     position: relative;
 }
-.article-3 .product .card .card-img img {
-    height: 100%;
-    /* max-width: 490px;
-    min-width: 490px;
-    max-height: 400px;
-    min-height: 400px; */
-    object-fit: fill;
+.article-3 .product .card .card-img {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
     width: 100%;
+}
+.article-3 .product .card .card-img.img-1 {
+    background-image: url('../article 3/product_1.png');
+}
+.article-3 .product .card .card-img.img-2 {
+    background-image: url('../article 3/product_2.png');
+}
+.article-3 .product .card .card-img.img-3 {
+    background-image: url('../article 3/product_3.png');
 }
 .article-3 .product .card .card-detail {
     bottom: 0;
     font-family: "Nunito", serif;
-    padding-left: 40px;
-    padding-bottom: 33px;
+    /* padding-left: 40px;
+    padding-bottom: 33px; */
+    padding: 20px;
     position: absolute;
     width: 100%;
 }
@@ -322,6 +356,7 @@ nav.navbar .showroom {
     color: #FFFFFF;
     font-size: 32px;
     font-weight: 500;
+    line-height: 33px;
     margin-bottom: 0px !important;
 }
 .article-3 .product .card .card-detail .product-quantity {
@@ -392,23 +427,32 @@ nav.navbar .showroom {
 .article-4 .sale {
     gap: 30px;
     margin-top: 80px;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     width: 100%;
 }
 .article-4 .sale .card {
     background-color: #FFFFFF;
     gap: 20px;
+    max-width: 490px;
+    min-width: 490px;
     padding: 20px;
 }
 .article-4 .sale .card .card-img {
-    display: flex;
-    justify-content: center;
-    /* max-width: 320px !important; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 390px;
     width: 100%;
 }
-/* .article-4 .sale .card .card-img img {
-    max-width: 320px !important;
-} */
+.article-4 .sale .card .card-img.img-1 {
+    background-image: url('../article 4/coach_1.png');
+}
+.article-4 .sale .card .card-img.img-2 {
+    background-image: url('../article 4/coach_2.png');
+}
+.article-4 .sale .card .card-img.img-3 {
+    background-image: url('../article 4/coach_3.png');
+}
 .article-4 .sale .card .card-detail {
     font-family: "Nunito", serif;
     max-height: 94px;
@@ -447,6 +491,9 @@ nav.navbar .showroom {
     display: flex;
     justify-content: center;
     position: absolute;
+    width: 100%;
+}
+.article-5 .statement {
     width: 100%;
 }
 .article-5 .statement .statement-detail {
@@ -509,12 +556,12 @@ nav.navbar .showroom {
 .article-6 {
     background-color: #FDF5F3;
     /* min-height: 1062px; */
-    padding: 200px 160px;
+    /* padding: 200px 160px; */
     position: relative;
     width: 100%;
 }
 .article-6 .showroom {
-    gap: 30px;
+    gap: 70px;
 }
 .article-6 .showroom .showroom-image {
     display: flex;
@@ -616,13 +663,14 @@ nav.navbar .showroom {
 .article-7 .news-event {
     gap: 30px;
     margin-top: 80px;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     width: 100%;
 }
 .article-7 .news-event .card {
     background-color: #FFFFFF;
     gap: 20px;
-    max-width: 320px !important;
+    /* max-width: 320px !important; */
+    max-width: 350px !important;
     padding: 20px;
 }
 .article-7 .news-event .card .card-img {
@@ -631,9 +679,24 @@ nav.navbar .showroom {
     max-width: 320px !important;
     width: 100%;
 }
-.article-7 .news-event .card .card-img img {
-    border: 1px solid #f1f1f1;
-    max-width: 282px !important;
+.article-7 .news-event .card .card-img {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 185px;
+    width: 100%;
+}
+.article-7 .news-event .card .card-img.img-1 {
+    background-image: url('../article 7/rectangle_1.png');
+}
+.article-7 .news-event .card .card-img.img-2 {
+    background-image: url('../article 7/rectangle_2.png');
+}
+.article-7 .news-event .card .card-img.img-3 {
+    background-image: url('../article 7/rectangle_3.png');
+}
+.article-7 .news-event .card .card-img.img-4 {
+    background-image: url('../article 7/rectangle_4.png');
 }
 .article-7 .news-event .card .card-detail {
     font-family: "Nunito", serif;
