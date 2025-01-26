@@ -271,15 +271,20 @@
 
     /* article-1 */
     .article-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
         padding-top: 60px;
     }
     .article-1 .slogan {
-        font-size: 45px;
+        font-size: 50px;
         line-height: 70px;
     }
     .article-1 .mascot {
         left: 35%;
         top: 240%;
+        display: none;
     }
     .article-1 .mascot img {
         height: 170px;
@@ -287,10 +292,12 @@
     .article-1 .ellipse {
         bottom: -330%;
         left: 30%;
+        display: none;
     }
     .article-1 .electric {
         left: 30%;
         bottom: -155%;
+        display: none;
     }
     .article-1 .electric img {
         height: 120px;
@@ -304,33 +311,33 @@
 
     /* article-2 */
     .article-2 {
-        padding: 60px 30px;
+        padding: 40px 30px;
     }
     .article-2 .slogan {
-        font-size: 45px;
+        font-size: 35px;
     }
     .article-2 .sale {
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .article-2 .slogan .slogan-detail {
-        font-size: 16px;
+        font-size: 14px;
     }
     .article-2 .sale {
         padding: 0;
     }
     .article-2 .sale .card {
-        max-width: 290px;
-        min-width: 290px;
+        max-width: 270px;
+        min-width: 270px;
     }
     .article-2 .sale .card .card-img {
-        height: 250px;
+        height: 230px;
     }
     .android .article-2 .sale .card {
-        max-width: 280px;
-        min-width: 280px;
+        max-width: 260px;
+        min-width: 260px;
     }
     .android .article-2 .sale .card .card-img {
-        height: 260px;
+        height: 240px;
     }
     .article-2 .sale .card .card-detail .sale-product-name {
         display: -webkit-box;
@@ -341,23 +348,22 @@
 
     /* article-3 */
     .article-3 {
-        padding: 60px 30px;
+        padding: 40px 30px;
     }
     .article-3 .slogan .slogan-main {
         align-items: center;
         display: flex;
-        flex-direction: column-reverse;
-        font-size: 45px;
-        gap: 10px;
+        font-size: 35px;
+        gap: 20px;
     }
     .android .article-3 .slogan .slogan-main {
         font-size: 41px;
     }
     .article-3 .slogan .slogan-main img {
-        height: 70px;
+        height: 60px;
     }
     .android .article-3 .slogan .slogan-main img {
-        height: 60px;
+        height: 50px;
     }
     .article-3 .discover-all .discover-all-button {
         width: 200px;
@@ -369,6 +375,9 @@
     .android .article-3 .product .card {
         max-width: 320px !important;
         min-width: 320px !important;
+    }
+    .article-3 .product {
+        margin-top: 17px;
     }
     .article-3 .product .card .card-detail {
         padding-left: 17px;
@@ -384,16 +393,25 @@
 
     /* article-4 */
     .article-4 {
-        padding: 60px 30px;
+        padding: 40px 30px;
     }
     .android .article-4 .slogan .slogan-main {
         font-size: 24px;
     }
+    .article-4 .slogan .slogan-main img {
+        height: 80px;
+    }
+    .android .article-4 .slogan .slogan-main img {
+        height: 70px;
+    }
     .article-4 .slogan .slogan-main {
         align-items: center;
         display: flex;
-        flex-direction: column-reverse;
-        font-size: 45px;
+        font-size: 35px;
+        gap: 20px;
+    }
+    .article-4 .sale {
+        margin-top: 3px;
     }
     .article-4 .sale .card {
         max-width: 330px !important;
@@ -408,12 +426,15 @@
     }
 
     /* article-5 */
+    .article-5 .statement {
+        padding: 40px 30px;
+    }
     .article-5 .statement .statement-detail .statement-wrapper {
         margin: 0;
         max-width: 690px;
     }
     .article-5 .statement .statement-detail .subject {
-        font-size: 37px;
+        font-size: 35px;
         line-height: 50px;
     }
     .android .article-5 .statement .statement-detail .subject {
@@ -429,6 +450,9 @@
     }
 
     /* article-6 */
+    .article-6 {
+        padding: 40px 30px;
+    }
     .article-6 .showroom .showroom-adrress {
         max-width: 690px;
         min-width: 690px;
@@ -453,14 +477,17 @@
     }
 
     /* article-7 */
+    .article-7 {
+        padding: 40px 30px;
+    }
     .article-7 .slogan {
-        font-size: 45px;
+        font-size: 35px;
     }
     .article-7 .discover-all .discover-all-button {
         max-width: 200px;
     }
     .article-7 .news-event {
-        margin-top: 30px;
+        margin-top: 3px;
         padding: 0;
     }
     .article-7 .news-event .card {
@@ -494,8 +521,8 @@
     }
     .article-8 .advise .advise-detail .slogan {
         justify-content: center;
-        font-size: 40px;
-        line-height: 53px;
+        font-size: 37px;
+        line-height: 47px;
     }
     .article-8 .advise .advise-detail .form .form-control {
         height: 60px;
@@ -569,6 +596,7 @@
 
     .article-1 {
         padding: 60px 30px 0 30px;
+        justify-content: flex-start;
     }
 
     /* article-2 */
@@ -589,6 +617,10 @@
     .article-3 .slogan {
         font-size: 28px;
     }
+    .article-3 .slogan .slogan-main {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
     .article-3 .product .card {
         max-height: 250px;
         min-height: 250px;
@@ -596,14 +628,17 @@
         max-width: 350px;
     }
     .android .article-3 .product .card,
-    .android .article-3 .product .card .card-img,
-    .android .article-3 .product .card .card-img img {
+    .android .article-3 .product .card .card-img {
         min-width: 300px;
     }
 
     /* article-4 */
     .article-4 .slogan {
         font-size: 28px;
+    }
+    .article-4 .slogan .slogan-main {
+        flex-direction: column-reverse;
+        gap: 0;
     }
     .article-4 .sale .card {
         max-width: 354px;
@@ -613,11 +648,12 @@
         max-width: 300px;
         min-width: 300px;
     }
-    .android .article-4 .card .card-img img {
-        width: 260px;
-    }
 
     /* article-5 */
+    .article-5 .statement .statement-detail .subject {
+        font-size: 33px;
+        line-height: 45px;
+    }
     .article-5 .statement .statement-detail .content {
         margin-top: 55px;
         width: auto;
@@ -629,7 +665,7 @@
         min-width: 300px;
     }
     .article-6 .showroom .showroom-adrress .header p {
-        font-size: 27px;
+        font-size: 24px;
         line-height: 50px;
     }
     .android .article-6 .showroom .showroom-adrress .header p {

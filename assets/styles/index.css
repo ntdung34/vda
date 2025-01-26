@@ -132,7 +132,6 @@ article:not(.article-1) {
     min-height: 820px;
     padding-top: 150px;
     padding-bottom: 60px;
-    position: relative;
     width: 100%;
 }
 .article-1 .carousel-dots {
