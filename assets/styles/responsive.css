@@ -152,11 +152,6 @@
 /* 1200px */
 @media (max-width: 1199.98px) {
 
-    /* article-2 */
-    .article-2 .sale .card {
-        min-height: 250px !important;
-    }
-
     /* article-3 */
     .article-3 {
         padding: 60px 30px;
@@ -273,7 +268,7 @@
     .article-1 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
         min-height: 100vh;
         padding-top: 60px;
     }
@@ -282,25 +277,22 @@
         line-height: 70px;
     }
     .article-1 .mascot {
-        left: 35%;
-        top: 240%;
-        display: none;
+        right: 27%;
+        top: 123%;
     }
     .article-1 .mascot img {
-        height: 170px;
+        height: 140px;
     }
     .article-1 .ellipse {
-        bottom: -330%;
-        left: 30%;
-        display: none;
+        top: 0;
+        right: -21%;
     }
     .article-1 .electric {
-        left: 30%;
-        bottom: -155%;
-        display: none;
+        right: 40%;
+        bottom: -36%;
     }
     .article-1 .electric img {
-        height: 120px;
+        height: 90px;
     }
     .article-1 .discover-more {
         margin-top: 25px;
@@ -326,15 +318,18 @@
         padding: 0;
     }
     .article-2 .sale .card {
-        max-width: 270px;
-        min-width: 270px;
+        max-width: 330px;
+        min-width: 330px;
+        padding: 12px 20px;
     }
     .article-2 .sale .card .card-img {
-        height: 230px;
+        /* background-size: cover; */
+        height: 247px;
+        width: 287px;
     }
     .android .article-2 .sale .card {
-        max-width: 260px;
-        min-width: 260px;
+        max-width: 320px;
+        min-width: 320px;
     }
     .android .article-2 .sale .card .card-img {
         height: 240px;
@@ -353,7 +348,7 @@
     .article-3 .slogan .slogan-main {
         align-items: center;
         display: flex;
-        font-size: 35px;
+        font-size: 30px;
         gap: 20px;
     }
     .android .article-3 .slogan .slogan-main {
@@ -377,7 +372,7 @@
         min-width: 320px !important;
     }
     .article-3 .product {
-        margin-top: 17px;
+        margin-top: 30px;
     }
     .article-3 .product .card .card-detail {
         padding-left: 17px;
@@ -407,19 +402,21 @@
     .article-4 .slogan .slogan-main {
         align-items: center;
         display: flex;
-        font-size: 35px;
+        font-size: 30px;
         gap: 20px;
     }
     .article-4 .sale {
-        margin-top: 3px;
+        margin-top: 20px;
     }
     .article-4 .sale .card {
         max-width: 330px !important;
         min-width: 330px !important;
+        padding: 15px 20px;
     }
     .android .article-4 .sale .card {
         max-width: 320px !important;
         min-width: 320px !important;
+        padding: 12px 20px;
     }
     .article-4 .sale .card .card-img {
         height: 247px;
@@ -434,7 +431,7 @@
         max-width: 690px;
     }
     .article-5 .statement .statement-detail .subject {
-        font-size: 35px;
+        font-size: 30px;
         line-height: 50px;
     }
     .android .article-5 .statement .statement-detail .subject {
@@ -487,7 +484,7 @@
         max-width: 200px;
     }
     .article-7 .news-event {
-        margin-top: 3px;
+        margin-top: 30px;
         padding: 0;
     }
     .article-7 .news-event .card {
@@ -521,7 +518,7 @@
     }
     .article-8 .advise .advise-detail .slogan {
         justify-content: center;
-        font-size: 37px;
+        font-size: 33px;
         line-height: 47px;
     }
     .article-8 .advise .advise-detail .form .form-control {
@@ -550,6 +547,22 @@
 
 /* 768px */
 @media (max-width: 767.98px) {
+
+    /* article-2 */
+    .article-1 .mascot {
+        display: none;
+    }
+    .article-1 .ellipse {
+        display: none;
+    }
+    .article-1 .electric {
+        display: none;
+    }
+
+    /* article-2 */
+    .article-2 .sale .card .card-img {
+        height: 287px;
+    }
 
     /* article-3 */
     .article-3 .slogan .slogan-main {
