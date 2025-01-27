@@ -827,6 +827,9 @@
     .article-8 .advise .advise-detail .form .form-control {
         height: 50px;
     }
+    .android .article-8 .advise .advise-detail .form .form-control:nth-child(2) {
+        height: 52px;
+    }
     .article-8 .advise .advise-detail .form .submit-button {
         font-size: 12px;
         height: 35px;
