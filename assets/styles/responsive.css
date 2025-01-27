@@ -631,12 +631,20 @@
         justify-content: flex-start;
     }
     .article-1 .slogan {
+        font-size: 41px;
+        line-height: 57px;
+    }
+    .android .article-1 .slogan {
         font-size: 44px;
         line-height: 60px;
     }
     .article-1 .discover-more .discover-more-button {
         font-size: 15px;
         height: 62px;
+    }
+    .android .article-1 .discover-more .discover-more-button {
+        font-size: 15px;
+        height: 57px;
     }
     .article-1 .mascot {
         display: block;
@@ -674,8 +682,8 @@
         gap: 5px;
         text-align: left;
     }
-    .android.article-2 .slogan {
-        font-size: 26px;
+    .android .article-2 .slogan {
+        font-size: 28px;
     }
     .article-2 .slogan .detail {
         font-size: 15px;
