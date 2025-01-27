@@ -635,8 +635,8 @@
         line-height: 57px;
     }
     .android .article-1 .slogan {
-        font-size: 44px;
-        line-height: 60px;
+        font-size: 40px;
+        line-height: 57px;
     }
     .article-1 .discover-more .discover-more-button {
         font-size: 15px;
@@ -822,13 +822,14 @@
         margin: 0;
     }
     .article-8 .advise .advise-detail .form {
-        margin-top: 50px;
+        gap: 26px;
+        margin-top: 60px;
     }
     .article-8 .advise .advise-detail .form .form-control {
         height: 50px;
     }
     .android .article-8 .advise .advise-detail .form .form-control:nth-child(2) {
-        height: 52px;
+        height: 60px;
     }
     .article-8 .advise .advise-detail .form .submit-button {
         font-size: 12px;
