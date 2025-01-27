@@ -67,7 +67,7 @@ function initializeSwipers() {
                 1269.98: {
                     slidesPerView: 3
                 },
-                799.98: {
+                499.98: {
                     slidesPerView: 2
                 }
             },

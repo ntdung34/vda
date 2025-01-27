@@ -421,6 +421,9 @@
     .article-4 .sale .card .card-img {
         height: 247px;
     }
+    .android .article-4 .sale .card .card-img {
+        height: 257px;
+    }
 
     /* article-5 */
     .article-5 .statement {
